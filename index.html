@@ -7,8 +7,19 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
             text-align: center;
-            padding-top: 50px;
+            padding-top: 20px;
+        }
+        .buttons-container {
+            margin-top: 20px;
         }
         .button {
             display: inline-block;
@@ -27,22 +38,27 @@
             width: 640px;
             height: 360px;
             margin-top: 20px;
-            border: none;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
     </style>
 </head>
 <body>
-    <h1>Добро пожаловать на мой сайт!</h1>
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+    </header>
 
-    <!-- Кнопки для отображения видео под кнопками -->
-    <div class="button" onclick="openVideo('https://catcast.tv/player/43075');">Видео 1</div>
-    <div class="button" onclick="openVideo('https://catcast.tv/player/40953');">Видео 2</div>
-    <div class="button" onclick="openVideo('https://catcast.tv/player/42498');">Видео 3</div>
-    <div class="button" onclick="openVideo('https://catcast.tv/player/43372');">Видео 4</div>
-    <div class="button" onclick="openVideo('https://catcast.tv/player/43693');">Видео 5</div>
+    <div class="buttons-container">
+        <!-- Кнопки для отображения видео под кнопками -->
+        <div class="button" onclick="openVideo('https://catcast.tv/player/43075');">Видео 1</div>
+        <div class="button" onclick="openVideo('https://catcast.tv/player/40953');">Видео 2</div>
+        <div class="button" onclick="openVideo('https://catcast.tv/player/42498');">Видео 3</div>
+        <div class="button" onclick="openVideo('https://catcast.tv/player/43372');">Видео 4</div>
+        <div class="button" onclick="openVideo('https://catcast.tv/player/43693');">Видео 5</div>
+    </div>
     
     <!-- Место для встраиваемого видео -->
-    <iframe id="videoFrame" src="" allowfullscreen></iframe>
+    <iframe id="videoFrame" src=""></iframe>
 
     <script>
         function openVideo(url) {
