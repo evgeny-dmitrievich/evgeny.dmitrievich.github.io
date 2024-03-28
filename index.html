@@ -1,107 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Мой красивый сайт</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: auto;
-    overflow: auto;
-    padding: 0 20px;
-  }
-
-  header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #0066a2 3px solid;
-  }
-
-  header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-
-  header ul {
-    padding: 0;
-    list-style: none;
-  }
-
-  header ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-
-  header .branding {
-    float: left;
-  }
-
-  header .branding h1 {
-    margin: 0;
-  }
-
-  header nav{
-    float: right;
-    margin-top: 10px;
-  }
-
-  header .button {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    background: #0066a2;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-  }
-
-  header .button:hover {
-    background: #004c7f;
-  }
-
-  section {
-    padding: 20px 0;
-    text-align: center;
-  }
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт с видео</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        iframe {
+            display: none; /* Скрываем iframe по умолчанию */
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
+    <h1>Добро пожаловать на мой сайт!</h1>
 
-<header>
-  <div class="container">
-    <div class="branding">
-      <h1>Лого Сайта</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#" class="button">Главная</a></li>
-        <li><a href="#" class="button">О нас</a></li>
-        <li><a href="#" class="button">Сервисы</a></li>
-        <li><a href="#" class="button">Контакты</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+    <!-- Кнопки для действий -->
+    <div class="button" onclick="openVideo();">Открыть видео в новом окне</div>
 
-<section>
-  <div class="container">
-    <h2>Добро пожаловать на мой красивый сайт</h2>
-    <p>Здесь ваше вступительное сообщение.</p>
-    <a href="#" class="button">Узнать больше</a>
-  </div>
-</section>
+    <p>Здесь может быть другое содержимое вашего сайта...</p>
+
+    <script>
+        function openVideo() {
+            var videoWindow = window.open('', '_blank', 'width=640,height=360');
+            videoWindow.document.write('<!DOCTYPE html><html><head><title>Видео</title></head><body><iframe src="https://catcast.tv/player/43075" frameborder="0" allowfullscreen width="640" height="360"></iframe></body></html>');
+        }
+    </script>
 
 </body>
 </html>
