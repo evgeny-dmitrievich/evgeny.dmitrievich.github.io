@@ -10,9 +10,6 @@
             text-align: center;
             padding-top: 50px;
         }
-        iframe {
-            display: none; /* Скрываем iframe по умолчанию */
-        }
         .button {
             display: inline-block;
             padding: 10px 20px;
@@ -31,15 +28,19 @@
 <body>
     <h1>Добро пожаловать на мой сайт!</h1>
 
-    <!-- Кнопки для действий -->
-    <div class="button" onclick="openVideo();">Открыть видео в новом окне</div>
+    <!-- Кнопки для открытия видео в новом окне -->
+    <div class="button" onclick="openVideo('https://catcast.tv/player/43075');">Видео 1</div>
+    <div class="button" onclick="openVideo('https://catcast.tv/player/40953');">Видео 2</div>
+    <div class="button" onclick="openVideo('https://catcast.tv/player/42498');">Видео 3</div>
+    <div class="button" onclick="openVideo('https://catcast.tv/player/43372');">Видео 4</div>
+    <div class="button" onclick="openVideo('https://catcast.tv/player/43693');">Видео 5</div>
 
     <p>Здесь может быть другое содержимое вашего сайта...</p>
 
     <script>
-        function openVideo() {
+        function openVideo(url) {
             var videoWindow = window.open('', '_blank', 'width=640,height=360');
-            videoWindow.document.write('<!DOCTYPE html><html><head><title>Видео</title></head><body><iframe src="https://catcast.tv/player/43075" frameborder="0" allowfullscreen width="640" height="360"></iframe></body></html>');
+            videoWindow.document.write('<!DOCTYPE html><html><head><title>Видео</title></head><body><iframe src="' + url + '" frameborder="0" allowfullscreen width="640" height="360"></iframe></body></html>');
         }
     </script>
 
