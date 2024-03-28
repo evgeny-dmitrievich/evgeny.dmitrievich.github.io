@@ -1,4 +1,21 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, http://epg.one/epg2.xml.gz" tvg-shift="+3" abs="true" 
+
+#EXTINF:-1 tvg-logo="https://epgx.site/p/sat1.png" group-title="Кинозал",NorKids
+https://v2.catcast.tv/content/40953/index.m3u8?token=6ca4e49c70ad933505df16f550ddd5aa
+
+#EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/i?id=fcbe6c4c1c6d2af522cfc21002ca5202_sr-5238639-images-thumbs&n=13" group-title="Кинозал",RHS Детский HD 
+https://v2.catcast.tv/content/42498/index.m3u8?token=bad989209c42944dd4ad0d8406566013
+
+#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/22052023/logos/21162-646b75e68b6c7.png" group-title="Кинозал",МУЛЬТКАНАЛ 
+https://v2.catcast.tv/content/43372/index.m3u8?token=9ef7c84990d13187c72c85c8308299a3
+
+#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/11082023/logos/21162-64d67f0e3ffa5.png" group-title="Кинозал",МУЛЬТКАНАЛ 2
+https://v2.catcast.tv/content/43693/index.m3u8?token=499860c0f2225f4968ed60d788154054
+
+#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/17052023/logos/17338-6465269d0ff2c.png" group-title="Кинозал", Tom and Jerry
+https://v2.catcast.tv/content/43075/index.m3u8?token=ea26dab9e85029c5dbcd85f3ef92f573
+
+
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://158.101.222.193:88/vesti/play.php?channel_id=46
@@ -1187,23 +1204,6 @@ http://88.135.128.20:7272/Jke5tdvCxp2Yhs6
 #EXTINF:-1 group-title="Детские", Nicktoons
 https://bkm.beetv.kz/btv/live/hls/000004365.m3u8 
 
-#EXTINF:-1 tvg-logo="https://epgx.site/p/sat1.png" group-title="Кинозал",NorKids
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://v2.catcast.tv/content/40953/index.m3u8?token=6ca4e49c70ad933505df16f550ddd5aa
 
-#EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/i?id=fcbe6c4c1c6d2af522cfc21002ca5202_sr-5238639-images-thumbs&n=13" group-title="Кинозал",RHS Детский HD 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://v2.catcast.tv/content/42498/index.m3u8?token=bad989209c42944dd4ad0d8406566013
-
-#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/22052023/logos/21162-646b75e68b6c7.png" group-title="Кинозал",МУЛЬТКАНАЛ 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://v2.catcast.tv/content/43372/index.m3u8?token=9ef7c84990d13187c72c85c8308299a3
-
-#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/11082023/logos/21162-64d67f0e3ffa5.png" group-title="Кинозал",МУЛЬТКАНАЛ 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://v2.catcast.tv/content/43693/index.m3u8?token=499860c0f2225f4968ed60d788154054
-
-#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/17052023/logos/17338-6465269d0ff2c.png" group-title="Кинозал", Tom and Jerry
-https://v2.catcast.tv/content/43075/index.m3u8?token=ea26dab9e85029c5dbcd85f3ef92f573
 
 
