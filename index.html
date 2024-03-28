@@ -1,17 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой сайт с видео</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        iframe {
+            display: none; /* Скрываем iframe по умолчанию */
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <h1>Добро пожаловать на мой сайт!</h1>
     
-    <!-- Вставленный iframe с видеоплеером -->
-    <iframe src="https://catcast.tv/player/43075" frameborder="0" allowfullscreen width="640" height="360"></iframe>
+    <!-- Кнопки для действий -->
+    <div class="button" onclick="openVideo();">Открыть видео в новом окне</div>
     
     <p>Здесь может быть другое содержимое вашего сайта...</p>
+    
+    <script>
+        function openVideo() {
+            var videoWindow = window.open('', '_blank', 'width=640,height=360');
+            videoWindow.document.write('<!DOCTYPE html><html><head><title>Видео</title></head><body><iframe src="https://catcast.tv/player/43075" frameborder="0" allowfullscreen width="640" height="360"></iframe></body></html>');
+        }
+    </script>
 
 </body>
 </html>
