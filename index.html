@@ -13,38 +13,5 @@
     
     <p>Здесь может быть другое содержимое вашего сайта...</p>
 
-    <script>
-
-    function updatePlaylistWithToken() {
-        var token = generateNewToken(); // Функция для генерации нового токена
-        var playlistUrl = "https://v2.catcast.tv/content/43075/index.m3u8?token=" + token;
-
-        fetch('iptv/iptv.m3u')
-        .then(response => response.text())
-        .then(data => {
-            var updatedData = data.replace('63f9366ac248848831c20024c280da87', token);
-            
-            fetch('iptv/iptv.m3u', {
-                method: 'PUT',
-                body: updatedData
-            })
-            .then(response => {
-                console.log('Токен успешно обновлен в файле iptv.m3u');
-            })
-            .catch(error => {
-                console.error('Ошибка при обновлении токена в файле iptv.m3u:', error);
-            });
-        });
-    }
-
-    // Генерация нового токена каждые 23 часа
-    setInterval(updatePlaylistWithToken, 1000 * 60 * 60 * 23);
-
-    function generateNewToken() {
-        // Здесь вы можете добавить логику для генерации нового токена
-        return "новый_токен_здесь";
-    }
-
-    </script>
 </body>
 </html>
