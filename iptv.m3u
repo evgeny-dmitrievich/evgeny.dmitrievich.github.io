@@ -1,19 +1,19 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, http://epg.one/epg2.xml.gz" tvg-shift="+3" abs="true" 
 
 #EXTINF:-1 tvg-logo="https://epgx.site/p/sat1.png" group-title="Кинозал",NorKids
-https://v2.catcast.tv/content/40953/index.m3u8?token=66df903d3539298ceccea6d95bfde5df
+https://v2.catcast.tv/content/40953/index.m3u8?token=92623fa79df39a43f74c7bdea3e0eb82
 
 #EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/i?id=fcbe6c4c1c6d2af522cfc21002ca5202_sr-5238639-images-thumbs&n=13" group-title="Кинозал",RHS Детский HD 
-https://v2.catcast.tv/content/42498/index.m3u8?token=adcba09945075522de6fdc0a4a9a667d
+https://v2.catcast.tv/content/42498/index.m3u8?token=27c833be75adc13960f1f89e4439f7f3
 
 #EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/22052023/logos/21162-646b75e68b6c7.png" group-title="Кинозал",МУЛЬТКАНАЛ 
-https://v2.catcast.tv/content/43372/index.m3u8?token=948938494efaf8792fade5b5afb35c28
+https://v2.catcast.tv/content/43372/index.m3u8?token=d6a536253e67d48cb25b9c464e95484d
 
 #EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/11082023/logos/21162-64d67f0e3ffa5.png" group-title="Кинозал",МУЛЬТКАНАЛ 2
-https://v2.catcast.tv/content/43693/index.m3u8?token=be3bd74f96bc88748921348082aef921
+https://v2.catcast.tv/content/43693/index.m3u8?token=44f0d967babaab4aeef422572fbcf98b
 
 #EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/17052023/logos/17338-6465269d0ff2c.png" group-title="Кинозал", Tom and Jerry
-https://v2.catcast.tv/content/43075/index.m3u8?token=ea26dab9e85029c5dbcd85f3ef92f573
+https://v2.catcast.tv/content/43075/index.m3u8?token=83b8f3331946043dbb2de5e1b19e1abd
 
 
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
