@@ -1,20 +1,5 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, http://epg.one/epg2.xml.gz" tvg-shift="+3" abs="true" 
 
-#EXTINF:-1 tvg-logo="https://epgx.site/p/sat1.png" group-title="Кинозал",NorKids
-https://v2.catcast.tv/content/40953/index.m3u8?token=733dc231dccd2b7a543a01195d2256e3
-
-#EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/i?id=fcbe6c4c1c6d2af522cfc21002ca5202_sr-5238639-images-thumbs&n=13" group-title="Кинозал",RHS Детский HD 
-https://v2.catcast.tv/content/42498/index.m3u8?token=b55803fbc226dd0a1b675b20dc7c48eb
-
-#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/22052023/logos/21162-646b75e68b6c7.png" group-title="Кинозал",МУЛЬТКАНАЛ 
-https://v2.catcast.tv/content/43372/index.m3u8?token=d2d1a673c8fda69ef1e79d60c97013e7
-
-#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/11082023/logos/21162-64d67f0e3ffa5.png" group-title="Кинозал",МУЛЬТКАНАЛ 2
-https://v2.catcast.tv/content/43693/index.m3u8?token=3d32b711ee5247a18923eafe9a39c192
-
-#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/17052023/logos/17338-6465269d0ff2c.png" group-title="Кинозал", Tom and Jerry
-https://v2.catcast.tv/content/43075/index.m3u8?token=87fe9b01bd6667118cd2565bb5c5be44
-
 
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
@@ -1173,9 +1158,12 @@ http://91.205.199.7:8000/play/a0ne
 #EXTINF:-1 _"MTVLive.uk" tvg-logo="https://i.imgur.com/St5DhAU.png" group-title="Музыкальные", MTV Live
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000447.m3u8
-#EXTINF:-1 _"TheVoice.bg" tvg-logo="https://i.imgur.com/OoJSmoj.png" ...="The Voice [bg]" group-title="Музыкальные",The Voice [bg] [1280x720]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OoJSmoj.png" ...="The Voice [bg]" group-title="Музыкальные",The Voice [bg] [1280x720]
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
+#EXTINF:-1 group-title="Музыкальные",Magic TV (720p)
+https://bss1.neterra.tv/magictv/magictv.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/company-tv.webp" group-title="Музыкальные", COMPANY TV
