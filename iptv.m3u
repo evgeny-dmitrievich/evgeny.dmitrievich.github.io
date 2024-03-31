@@ -181,8 +181,6 @@ http://195.9.195.3:8080/hls/187241.m3u8
 http://195.9.195.3:8080/hls/202127.m3u8
 #EXTINF:-1 group-title="Кинозал", Страх HD
 http://hlss.goodgame.ru/hls/202127.m3u8
-#EXTINF:-1 tvg-id="strashnoe-hd" tvg-logo="https://epgx.site/p/strashnoe-hd.png" group-title="Кинозал", Страшное HD
-https://tvcdnpotok.com/U05eqWw2Twq0kabwTNNssw/216/1711462179/index.m3u8
 #EXTINF:-1 tvg-logo="http://telik.live/images/koshmar_hd.png" group-title="Кинозал", Кошмар HD
 https://hls.goodgame.ru/hls/204709.m3u8
 #EXTINF:-1 tvg-logo="https://tvapp.su/images/logo-channel/fmc-tv.png" group-title="Кинозал", FMC
@@ -201,10 +199,6 @@ https://v2.catcast.tv/content/40783/index.m3u8
 https://v2.catcast.tv/content/41331/index.m3u8
 #EXTINF:-1 group-title="Кинозал", Феникс Плюс Кино
 http://188.113.190.15/24/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/blokbaster.png" group-title="Кинозал", Блокбастер
-https://cdn.ru01.spr24.net:4443/20801/tracks-v1a1/mono.m3u8?token=vDpxk8qYbqsKFb&remote=91.190.239.90
-#EXTINF:-1 tvg-logo="https://img.catcast.tv/uploads/17052023/logos/17338-6465269d0ff2c.png" group-title="Кинозал", Tom and Jerry
-https://v2.catcast.tv/content/43075/index.m3u8?token=63f9366ac248848831c20024c280da87
 #EXTINF:-1 tvg-id="amedia1" tvg-logo="https://epgx.site/p/amedia1.png" group-title="Кинозал",Amedia 1 (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000000710.m3u8
 #EXTINF:-1 tvg-id="amedia2" tvg-logo="https://epgx.site/p/amedia2.png" group-title="Кинозал",Amedia 2 (EDTV 576p)
@@ -221,17 +215,17 @@ https://strm.yandex.ru/kal/cinema_tv_belarus/cinema_tv_belarus0.m3u8
 https://bkm.beetv.kz/btv/live/hls/000000452.m3u8
 #EXTINF:-1 tvg-id="fanhd" tvg-logo="https://epgx.site/p/fanhd.png" group-title="Кинозал",FAN (HD)
 http://92.242.110.52:9835/udp/238.1.7.6:1234
-#EXTINF:-1 group-title="Кинозал", FilmBox Arthouse
+#EXTINF:-1 group-title="Кинозал", FilmBox Arthouse (EDTV 576p)
 http://188.113.190.15/207/mono.m3u8
 #EXTINF:-1 group-title="Кинозал", Flix Snip
 http://92.242.110.52:9835/udp/238.1.8.38:1234
 #EXTINF:-1 tvg-id="fox" tvg-logo="https://epgx.site/p/fox.png" group-title="Кинозал",FX (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000004472.m3u8
-#EXTINF:-1 tvg-id="foxlife" tvg-logo="https://epgx.site/p/foxlife.png" group-title="Кинозал",FX Life (EDTV 576p)
+#EXTINF:-1 tvg-id="foxlife" tvg-logo="https://epgx.site/p/foxlife.png" group-title="Кинозал",FX Life (HD)
 https://bkm.beetv.kz/btv/live/hls/000004471.m3u8
-#EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://epgx.site/p/hollywood-hd.png" group-title="Кинозал",HollywooD (HD)
+#EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://epgx.site/p/hollywood-hd.png" group-title="Кинозал",HollywooD (EDTV 576p)
 https://strm.yandex.ru/kal/hollywood_belarus/hollywood_belarus0.m3u8
-#EXTINF:-1 group-title="Кинозал", Kinoliving
+#EXTINF:-1 group-title="Кинозал", Kinoliving (EDTV 576p)
 http://92.242.110.52:9835/udp/238.1.8.1:1234
 #EXTINF:-1 tvg-id="plan-b" tvg-logo="https://epgx.site/p/plan-b.png" group-title="Кинозал",Plan B (HD)
 http://88.85.172.243:7012/play/a028
@@ -262,7 +256,7 @@ https://bkm.beetv.kz/btv/live/hls/000003910.m3u8
 http://83.234.207.29:8011/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epgx.site/p/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000003748.m3u8
-#EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (EDTV 576p)
+#EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (HD)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
 #EXTINF:-1 tvg-id="tlc" tvg-logo="https://epgx.site/p/tlc.png" group-title="Хобби и увлечения",TLC (EDTV 576p)
@@ -317,7 +311,7 @@ http://otv.wotom.net:4433/udp/238.1.1.109:1234
 http://195.26.83.96:7007/play/a00j/index.m3u8
 #EXTINF:-1 tvg-id="galaxy-tv" tvg-logo="https://epgx.site/p/galaxy-tv.png" group-title="Познавательные",Galaxy TV (EDTV 576p)
 https://strm.yandex.ru/kal/tainy_galaktiki_belarus/tainy_galaktiki_belarus0.m3u8
-#EXTINF:-1 group-title="Познавательные", H2 HD
+#EXTINF:-1 group-title="Познавательные", H2 (HD)
 https://bkm.beetv.kz/btv/live/hls/000002722.m3u8
 #EXTINF:-1 group-title="Познавательные", HDL
 https://strm.yandex.ru/kal/hd_life_belarus/hd_life_belarus0.m3u8
@@ -1182,7 +1176,7 @@ https://strm.yandex.ru/kal/kapitan_fantastika_belarus/kapitan_fantastika_belarus
 http://strm.yandex.ru/kal/baby_time/baby_time0.m3u8
 #EXTINF:-1 group-title="Детские", Cartoon Classics
 http://178.163.2.88:4022/udp/234.0.0.238:2000
-#EXTINF:-1 group-title="Детские", Cartoonito (HD)
+#EXTINF:-1 group-title="Детские", Cartoonito (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000000160.m3u8
 #EXTINF:-1 group-title="Детские", Cartoon Network (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000000015.m3u8
