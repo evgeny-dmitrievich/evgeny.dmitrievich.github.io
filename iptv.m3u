@@ -356,8 +356,6 @@ http://sc.id-tv.kz/1hd.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000001020.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Deluxemusic.svg/50px-Deluxemusic.svg.png" group-title="Музыкальные",Deluxe Music HD
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/6602713abf037_13018905_2403260654_720p.m3u8
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/hits-360.webp" group-title="Музыкальные",Hits 360
 https://cdn.essastream.com:3023/live/hits360tvlive.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
