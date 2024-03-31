@@ -796,8 +796,6 @@ http://strm.yandex.ru/kal/europa_plus_tv/europa_plus_tv0.m3u8
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 group-title="Музыкальные", MCM Top
 http://92.242.110.52:9835/udp/238.1.9.9:1234
-#EXTINF:-1 group-title="Музыкальные", MTV Live HD
-http://45.5.119.155:8090/play/a0hz/index.m3u8
 #EXTINF:-1 group-title="Музыкальные", MTV 00's
 https://bkm.beetv.kz/btv/live/hls/000000264.m3u8
 #EXTINF:-1 group-title="Музыкальные", MTV 00's
@@ -1146,18 +1144,15 @@ https://cmc-ono.amagi.tv/playlist.m3u8
 #EXTINF:-1 _"DSTV.bg" tvg-logo="https://smotret.tv/images/dancestar-tv.webp" ...="DSTV [bg]" group-title="Музыкальные",DSTV [bg] [1920x1080]
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://46.249.95.140:8081/hls/data.m3u8
-#EXTINF:-1 _"MTVLive.uk" tvg-logo="https://i.imgur.com/St5DhAU.png" group-title="Музыкальные", MTV Live
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+#EXTINF:-1 tvg-logo="https://i.imgur.com/St5DhAU.png" group-title="Музыкальные", MTV Live
 http://91.205.199.7:8000/play/a0ne
-#EXTINF:-1 _"MTVLive.uk" tvg-logo="https://i.imgur.com/St5DhAU.png" group-title="Музыкальные", MTV Live
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+#EXTINF:-1 tvg-logo="https://i.imgur.com/St5DhAU.png" group-title="Музыкальные", MTV Live
 https://bkm.beetv.kz/btv/live/hls/000000447.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OoJSmoj.png" ...="The Voice [bg]" group-title="Музыкальные",The Voice [bg] [1280x720]
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:-1 group-title="Музыкальные",Magic TV (720p)
 https://bss1.neterra.tv/magictv/magictv.m3u8
-
 
 
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/company-tv.webp" group-title="Музыкальные", COMPANY TV
