@@ -2,92 +2,36 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Видео Галерея</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .buttons-container {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .button {
-            padding: 10px 15px;
-            display: inline-block;
-            margin-right: 10px;
-            background: #5C6BC0;
-            color: white;
-            border-radius: 4px;
-            text-decoration: none;
-            transition: background-color 0.3s ease-in-out;
-        }
-
-        .button:last-child {
-            margin-right: 0;
-        }
-
-        .button:hover {
-            background: #3F51B5;
-        }
-
-        .video-container {
-            max-width: 900px;
-            margin: 20px auto;
-        }
-
-        #videoFrame {
-            width: 100%;
-            height: 500px;
-            border: none;
-            border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-    </style>
+    <title>Воспроизведение M3U Плейлиста</title>
 </head>
 <body>
-    <header>
-        <h1>Добро пожаловать в видео галерею!</h1>
-    </header>
+    <video id="videoFrame" controls width="640" height="360">
+        Ваш браузер не поддерживает встроенные видео.
+    </video>
 
-    <div class="buttons-container">
-        <div class="button" onclick="stopVideo();">На главную</div>
-        <div class="button" onclick="openVideo('https://catcast.tv/player/43075');">Видео 1</div>
-        <div class="button" onclick="openVideo('https://catcast.tv/player/40953');">Видео 2</div>
-        <div class="button" onclick="openVideo('https://catcast.tv/player/42498');">Видео 3</div>
-        <div class="button" onclick="openVideo('https://catcast.tv/player/43372');">Видео 4</div>
-        <div class="button" onclick="openVideo('https://catcast.tv/player/43693');">Видео 5</div>
-    </div>
-
-    <div class="video-container">
-        <iframe id="videoFrame" src="" allowfullscreen="true"></iframe>
-    </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
-        var videoFrame = document.getElementById('videoFrame');
+        document.addEventListener('DOMContentLoaded', function () {
+            var video = document.getElementById('videoFrame');
+            // Укажите здесь ссылку на ваш M3U плейлист
+            var videoSrc = 'https://evgeny-dmitrievich.github.io/iptv/iptv.m3u';
 
-        function openVideo(url) {
-            videoFrame.src = url;
-        }
-
-        function stopVideo() {
-            videoFrame.src = "";
-        }
+            if (Hls.isSupported()) {
+                var hls = new Hls();
+                hls.loadSource(videoSrc);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                    video.play();
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = videoSrc;
+                video.addEventListener('canplay', function () {
+                    video.play();
+                });
+            } else {
+                console.error('Формат HLS не поддерживается в этом браузере');
+            }
+        });
     </script>
-
 </body>
 </html>
