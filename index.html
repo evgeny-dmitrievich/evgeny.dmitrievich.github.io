@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Воспроизведение M3U Плейлиста</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <style>
+        .video-js { width: 100%; height: auto; }
+    </style>
 </head>
 <body>
     <select id="channelSelect">
         <option value="">Выберите канал</option>
-        <!-- Список каналов будет добавлен здесь -->
+        <!-- Опции добавятся здесь -->
     </select>
-    <video id="videoFrame" controls width="640" height="360"></video>
+    
+    <video
+        id="videoFrame"
+        class="video-js vjs-default-skin"
+        controls
+        preload="auto"
+        width="640"
+        height="264"
+        data-setup="{}">
+    </video>
 
-    <!-- Подключаем библиотеку Hls.js -->
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+
     <script>
         function loadPlaylist(playlistUrl) {
-            // Получаем плейлист
             fetch(playlistUrl).then(function(response) {
                 return response.text();
             }).then(function(body) {
@@ -39,25 +52,19 @@
         document.addEventListener('DOMContentLoaded', function () {
             var videoFrame = document.getElementById('videoFrame');
             var channelSelect = document.getElementById('channelSelect');
+            var player = videojs(videoFrame);
 
             channelSelect.addEventListener('change', function() {
-                if (Hls.isSupported()) {
-                    var hls = new Hls();
-                    hls.loadSource(this.value);
-                    hls.attachMedia(videoFrame);
-                    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-                      videoFrame.play();
-                    });
-                } else if (videoFrame.canPlayType('application/vnd.apple.mpegurl')) {
-                    videoFrame.src = this.value;
-                    videoFrame.addEventListener('loadedmetadata',function() {
-                      videoFrame.play();
-                    });
-                }
+                player.src({
+                    type: 'application/x-mpegURL',
+                    src: this.value
+                });
+                player.play();
             });
 
-            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // замените URL вашим реальным плейлистом M3U
+            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
         });
     </script>
+
 </body>
 </html>
