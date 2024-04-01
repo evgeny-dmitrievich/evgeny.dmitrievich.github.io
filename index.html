@@ -4,60 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css">
-    <style>
-        video { width: 100%; height: auto; }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.css">
 </head>
 <body>
     <select id="channelSelect">
-        <option value="">Выбери канал</option>
+        <option value="">Выберите канал</option>
         <!-- Опции добавятся здесь -->
     </select>
 
-    <video id="videoFrame" width="640" height="360" controls>
-        <source type="video/mp4"> <!-- для демонстрационных целей -->
-        <!-- Другие источники медиа могут быть добавлены здесь -->
-    </video>
+    <div id="videoFrame"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
     <script>
-        // Подгрузка плейлиста и добавление доступных каналов в элемент select
+        // Создаём новый экземпляр Clappr и устанавливаем контейнер для плеера
+        var player = new Clappr.Player({
+            parentId: '#videoFrame',
+            width: 640,
+            height: 360,
+            autoPlay: false,
+        });
+
+        // Функция для загрузки плейлиста M3U и добавления доступных каналов в элемент select
         function loadPlaylist(playlistUrl) {
             fetch(playlistUrl).then(function(response) {
                 return response.text();
             }).then(function(body) {
                 var lines = body.split('\n');
                 var select = document.getElementById('channelSelect');
-                for (var i = 0; i < lines.length; i++) {
-                    if (lines[i].startsWith('#EXTINF:')) {
-                        var title = lines[i].slice(lines[i].indexOf(',') + 1);
-                        var url = lines[++i].trim();
+
+                lines.forEach(function(line, index) {
+                    if (line.startsWith('#EXTINF:')) {
+                        var title = line.slice(line.indexOf(',') + 1);
+                        var url = lines[index + 1].trim();
                         var option = document.createElement('option');
                         option.value = url;
                         option.textContent = title;
                         select.appendChild(option);
                     }
-                }
+                });
             }).catch(function(error) {
                 console.error('Не удалось загрузить плейлист:', error);
             });
         }
 
-        document.addEventListener('DOMContentLoaded', function () {
-            var player = new MediaElementPlayer('videoFrame');
-            var channelSelect = document.getElementById('channelSelect');
-
-            channelSelect.addEventListener('change', function() {
-                if (this.value) {
-                    player.setSrc(this.value);
-                    player.load();
-                    player.play();
-                }
-            });
-
-            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
+        // Обработчик изменения выбранного канала
+        var channelSelect = document.getElementById('channelSelect');
+        channelSelect.addEventListener('change', function() {
+            if (this.value) {
+                // Обновляем источник для плеера и воспроизводим выбранный канал
+                player.load(this.value);
+                player.play();
+            }
         });
+
+        // Загружаем плейлист M3U при загрузке страницы
+        loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените этот URL на URL вашего реального плейлиста M3U
     </script>
 </body>
 </html>
