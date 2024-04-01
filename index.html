@@ -1,68 +1,92 @@
 <!DOCTYPE html>
-<html lang="ru">
+
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Player with MediaElement.js</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css"/>
-    <style>
-        .mejs__container {
-            width: 100%;
-        }
-        .mejs__player {
-            width: 100%;
-            height: auto;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Player</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.2.1/controls.min.css" rel="stylesheet">
+<style>
+.video {
+  width: 100%;
+  height: auto;
+}
+</style> 
 </head>
 <body>
-    <select id="channelSelect">
-        <option value="">Выбери канал</option>
-        <!-- Опции добавятся здесь -->
-    </select>
+<select id="channelSelect">
+<option value="">Выбери канал</option>
+<!-- Опции добавятся здесь -->
+</select>
+<video id="video" class="video" controls></video>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.2.1/shaka-player.compiled.min.js"></script>
+<script>
+async function loadPlaylist(playlistUrl) {
+  try {
+    const response = await fetch(playlistUrl);
+    const body = await response.text();
+    const lines = body.split('\n');
+    const select = document.getElementById('channelSelect');
+    for (let i = 0; i < lines.length; i++) {
+      if (lines[i].startsWith('#EXTINF:')) {
+        const title = lines[i].slice(lines[i].indexOf(',') + 1);
+        const url = lines[++i].trim();
+        const option = document.createElement('option');
+        option.value = url;
+        option.textContent = title;
+        select.appendChild(option);
+      }
+    }
+  } catch (error) {
+    console.error('Не удалось загрузить плейлист:', error);
+  }
+}
 
-    <video id="videoFrame" width="640" height="360" controls preload="none">
-        <!-- Источник видео установится динамически -->
-    </video>
+function initApp() {
+  // Install built-in polyfills to patch browser incompatibilities.
+  shaka.polyfill.installAll();
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
-    <script>
-        function loadPlaylist(playlistUrl) {
-            fetch(playlistUrl)
-            .then(function(response) { return response.text(); })
-            .then(function(body) {
-                var lines = body.split('\n');
-                var select = document.getElementById('channelSelect');
-                for (var i = 0; i < lines.length; i++) {
-                    if (lines[i].startsWith('#EXTINF:')) {
-                        var title = lines[i].slice(lines[i].indexOf(',') + 1);
-                        var url = lines[++i].trim();
-                        var option = document.createElement('option');
-                        option.value = url;
-                        option.textContent = title;
-                        select.appendChild(option);
-                    }
-                }
-            })
-            .catch(function(error) {
-                console.error('Не удалось загрузить плейлист:', error);
-            });
-        }
+  // Check to see if the browser supports the basic APIs Shaka needs.
+  if (shaka.Player.isBrowserSupported()) {
+    // Everything looks good!
+    initPlayer();
+  } else {
+    // This browser does not have the minimum set of APIs we need.
+    console.error('Browser not supported!');
+  }
+}
 
-        document.addEventListener('DOMContentLoaded', function () {
-            var videoFrame = document.getElementById('videoFrame');
-            var channelSelect = document.getElementById('channelSelect');
-            var player = new MediaElementPlayer(videoFrame);
+function initPlayer() {
+  // Create a Player instance.
+  const video = document.getElementById('video');
+  const player = new shaka.Player(video);
 
-            channelSelect.addEventListener('change', function() {
-                player.setSrc(this.value);
-                player.setVideoSize(640, 360);
-                player.play();
-            });
+  // Attach player to the window to make it easy to access in the JS console.
+  window.player = player;
 
-            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
-        });
+  // Listen for error events.
+  player.addEventListener('error', onErrorEvent);
 
-    </script>
+  // Try to load a manifest.
+  // This is an asynchronous process.
+  document.getElementById('channelSelect').addEventListener('change', function() {
+    player.load(this.value).catch(onError);  // Always catch errors in Promises.
+  });
+
+  loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
+}
+
+function onErrorEvent(event) {
+  // Extract the shaka.util.Error object from the event.
+  onError(event.detail);
+}
+
+function onError(error) {
+  // Log the error.
+  console.error('Error code', error.code, 'object', error);
+}
+
+document.addEventListener('DOMContentLoaded', initApp);
+</script>
 </body>
 </html>
