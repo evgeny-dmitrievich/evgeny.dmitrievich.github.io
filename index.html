@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
-    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
     <style>
-        .video-js { width: 100%; height: auto; }
+        #videoFrame { width: 100%; height: auto; }
     </style>
+    <!-- Подключение библиотеки Dash.js -->
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 </head>
 <body>
     <select id="channelSelect">
@@ -15,17 +16,7 @@
         <!-- Опции добавятся здесь -->
     </select>
     
-    <video
-        id="videoFrame"
-        class="video-js vjs-default-skin"
-        controls
-        preload="auto"
-        width="640"
-        height="264"
-        data-setup="{}">
-    </video>
-
-    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+    <video id="videoFrame" controls></video>
 
     <script>
         function loadPlaylist(playlistUrl) {
@@ -50,21 +41,20 @@
         }
 
         document.addEventListener('DOMContentLoaded', function () {
-            var videoFrame = document.getElementById('videoFrame');
+            var video = document.getElementById('videoFrame');
             var channelSelect = document.getElementById('channelSelect');
-            var player = videojs(videoFrame);
+            var player;
 
             channelSelect.addEventListener('change', function() {
-                player.src({
-                    type: 'application/x-mpegURL',
-                    src: this.value
-                });
-                player.play();
+                if (player) {
+                    player.reset(); // Сброс предыдущего экземпляра плеера
+                }
+                player = dashjs.MediaPlayer().create();
+                player.initialize(video, this.value, true);
             });
 
             loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
         });
     </script>
-
 </body>
 </html>
