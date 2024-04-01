@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Video Player</title>
-<style>
-.video {
-  width: 100%;
-  height: auto;
-}
-</style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/playerjs/4.14.2/themes/default.css" rel="stylesheet" />
+    <style>
+        .playerjs { width: 100%; height: auto; }
+    </style>
 </head>
 <body>
-<select id="channelSelect">
-<option value="">Выберите канал</option>
-<!-- Опции добавятся здесь -->
-</select>
-<div id="playerContainer" class="video"></div>
-<script src="https://cdn.jsdelivr.net/npm/playerjs@0.1.7/dist/player.js"></script>
-<script>
-async function loadPlaylist(playlistUrl) {
-  try {
-    const response = await fetch(playlistUrl);
-    const body = await response.text();
-    const lines = body.split('\n');
-    const select = document.getElementById('channelSelect');
-    for (let i = 0; i < lines.length; i++) {
-      if (lines[i].startsWith('#EXTINF:')) {
-        const title = lines[i].slice(lines[i].indexOf(',') + 1);
-        const url = lines[++i].trim();
-        const option = document.createElement('option');
-        option.value = url;
-        option.textContent = title;
-        select.appendChild(option);
-      }
-    }
-  } catch (error) {
-    console.error('Не удалось загрузить плейлист:', error);
-  }
-}
+    <select id="channelSelect">
+        <option value="">Выбери канал</option>
+        <!-- Опции добавятся здесь -->
+    </select>
+    <div id="videoFrame" class="playerjs player-with-controls" width="640" height="360"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/playerjs/4.14.2/player.min.js"></script>
+    <script>
+        function loadPlaylist(playlistUrl) {
+            fetch(playlistUrl)
+            .then(function(response) { return response.text(); })
+            .then(function(body) {
+                const lines = body.split('\n');
+                const select = document.getElementById('channelSelect');
+                for (let i = 0; i < lines.length; i++) {
+                    if (lines[i].startsWith('#EXTINF:')) {
+                        const title = lines[i].slice(lines[i].indexOf(',') + 1);
+                        const url = lines[++i].trim();
+                        const option = document.createElement('option');
+                        option.value = url;
+                        option.textContent = title;
+                        select.appendChild(option);
+                    }
+                }
+            })
+            .catch(function(error) {
+                console.error('Не удалось загрузить плейлист:', error);
+            });
+        }
 
-let player = null;
+        document.addEventListener('DOMContentLoaded', function () {
+            const videoFrame = document.getElementById('videoFrame');
+            const channelSelect = document.getElementById('channelSelect');
+            const player = new Playerjs({id:"videoFrame", file:""}); // изначально установим пустой файл
 
-window.onload = function() {
-  player = new Playerjs({id:"player", file:""});
-  loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените на свой URL плейлиста M3U
-};
+            channelSelect.addEventListener('change', function() {
+                if (this.value) {
+                    player.api("file", this.value);
+                    player.api("play");
+                }
+            });
 
-document.getElementById('channelSelect').addEventListener('change', function(){
-  if(player){
-    player.api("file", this.value);
-  }
-});
-</script>
+            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
+        });
+    </script>
 </body>
 </html>
