@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, http://epg.one/epg2.xml.gz" tvg-shift="+3" abs="true" 
 
-
+#EXTINF:-1 group-title="Музыкальные", MTV Hits
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=2800000,BANDWIDTH=3500000,RESOLUTION=1024x576,FRAME-RATE=25.000,CODECS="avc1.4d401f,mp4a.40.2",CLOSED-CAPTIONS=NONE
+http://ruclust.kulik.uz/play/id68a8e6af/660a8f0fdbc5308ff5a60e18.m3u8?q=sb9erq:k5pyqw
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 #EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://158.101.222.193:88/vesti/play.php?channel_id=46
