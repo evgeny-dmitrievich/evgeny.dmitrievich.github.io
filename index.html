@@ -5,32 +5,53 @@
     <title>Воспроизведение M3U Плейлиста</title>
 </head>
 <body>
+    <select id="channelSelect">
+        <option value="">Выберите канал</option>
+        <!-- Список каналов будет добавлен здесь -->
+    </select>
     <video id="videoFrame" controls width="640" height="360">
         Ваш браузер не поддерживает встроенные видео.
     </video>
 
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var video = document.getElementById('videoFrame');
-            // Укажите здесь ссылку на ваш M3U плейлист
-            var videoSrc = 'https://evgeny-dmitrievich.github.io/iptv/iptv.m3u';
+        function loadPlaylist(playlistUrl) {
+            // Получаем плейлист
+            fetch(playlistUrl).then(function(response) {
+                return response.text();
+            }).then(function(body) {
+                var lines = body.split('\n');
+                var select = document.getElementById('channelSelect');
+                for (var i = 0; i < lines.length; i++) {
+                    if (lines[i].startsWith('#EXTINF:')) {
+                        var title = lines[i].slice(lines[i].indexOf(',') + 1);
+                        var url = lines[i + 1].trim();
+                        var option = document.createElement('option');
+                        option.value = url;
+                        option.textContent = title;
+                        select.appendChild(option);
+                    }
+                }
+            }).catch(function(error) {
+                console.error('Не удалось загрузить плейлист:', error);
+            });
+        }
 
-            if (Hls.isSupported()) {
-                var hls = new Hls();
-                hls.loadSource(videoSrc);
-                hls.attachMedia(video);
-                hls.on(Hls.Events.MANIFEST_PARSED, function () {
-                    video.play();
-                });
-            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = videoSrc;
-                video.addEventListener('canplay', function () {
-                    video.play();
-                });
-            } else {
-                console.error('Формат HLS не поддерживается в этом браузере');
-            }
+        document.addEventListener('DOMContentLoaded', function () {
+            var videoFrame = document.getElementById('videoFrame');
+            var channelSelect = document.getElementById('channelSelect');
+
+            channelSelect.addEventListener('change', function() {
+                if (Hls.isSupported()) {
+                    var hls = new Hls();
+                    hls.loadSource(this.value);
+                    hls.attachMedia(videoFrame);
+                } else if (videoFrame.canPlayType('application/vnd.apple.mpegurl')) {
+                    videoFrame.src = this.value;
+                }
+            });
+
+            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u');
         });
     </script>
 </body>
