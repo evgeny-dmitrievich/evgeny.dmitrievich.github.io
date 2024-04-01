@@ -24,15 +24,23 @@
             .then(function(body) {
                 const lines = body.split('\n');
                 const select = document.getElementById('channelSelect');
+                let firstUrl;
                 for (let i = 0; i < lines.length; i++) {
                     if (lines[i].startsWith('#EXTINF:')) {
                         const title = lines[i].slice(lines[i].indexOf(',') + 1);
                         const url = lines[++i].trim();
+                        if (!firstUrl) {
+                            firstUrl = url; // Сохраняем первый URL для воспроизведения
+                        }
                         const option = document.createElement('option');
                         option.value = url;
                         option.textContent = title;
                         select.appendChild(option);
                     }
+                }
+                if (firstUrl) {
+                    player.api("file", firstUrl); // Автоматически загружаем первый поток
+                    player.api("play");
                 }
             })
             .catch(function(error) {
@@ -43,16 +51,18 @@
         document.addEventListener('DOMContentLoaded', function () {
             const videoFrame = document.getElementById('videoFrame');
             const channelSelect = document.getElementById('channelSelect');
-            const player = new Playerjs({id:"videoFrame", file:""}); // изначально установим пустой файл
+            const player = new Playerjs({id:"videoFrame"}); // Player.js инициализируется без файла
 
             channelSelect.addEventListener('change', function() {
                 if (this.value) {
                     player.api("file", this.value);
                     player.api("play");
+                } else {
+                    player.api("stop"); // Останавливаем воспроизведение, если выбран элемент "Выбери канал"
                 }
             });
 
-            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
+            loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените этот URL на ваш фактический URL плейлиста M3U
         });
     </script>
 </body>
