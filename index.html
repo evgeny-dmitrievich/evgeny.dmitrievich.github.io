@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css">
     <style>
-        #videoFrame { width: 100%; height: auto; }
+        video { width: 100%; height: auto; }
     </style>
-    <!-- Подключение библиотеки Dash.js -->
-    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 </head>
 <body>
     <select id="channelSelect">
-        <option value="">Выберите канал</option>
+        <option value="">Выбери канал</option>
         <!-- Опции добавятся здесь -->
     </select>
-    
-    <video id="videoFrame" controls></video>
 
+    <video id="videoFrame" width="640" height="360" controls>
+        <source type="video/mp4"> <!-- для демонстрационных целей -->
+        <!-- Другие источники медиа могут быть добавлены здесь -->
+    </video>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
     <script>
+        // Подгрузка плейлиста и добавление доступных каналов в элемент select
         function loadPlaylist(playlistUrl) {
             fetch(playlistUrl).then(function(response) {
                 return response.text();
@@ -41,16 +45,15 @@
         }
 
         document.addEventListener('DOMContentLoaded', function () {
-            var video = document.getElementById('videoFrame');
+            var player = new MediaElementPlayer('videoFrame');
             var channelSelect = document.getElementById('channelSelect');
-            var player;
 
             channelSelect.addEventListener('change', function() {
-                if (player) {
-                    player.reset(); // Сброс предыдущего экземпляра плеера
+                if (this.value) {
+                    player.setSrc(this.value);
+                    player.load();
+                    player.play();
                 }
-                player = dashjs.MediaPlayer().create();
-                player.initialize(video, this.value, true);
             });
 
             loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
