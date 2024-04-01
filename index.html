@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Video Player</title>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.2.1/controls.min.css" rel="stylesheet">
 <style>
 .video {
   width: 100%;
@@ -18,8 +16,8 @@
 <option value="">Выбери канал</option>
 <!-- Опции добавятся здесь -->
 </select>
-<video id="video" class="video" controls></video>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.2.1/shaka-player.compiled.min.js"></script>
+<div id="playerContainer" class="video"></div>
+<script src="https://cdn.jsdelivr.net/npm/playerjs@0.1.7/dist/player.js"></script>
 <script>
 async function loadPlaylist(playlistUrl) {
   try {
@@ -42,51 +40,18 @@ async function loadPlaylist(playlistUrl) {
   }
 }
 
-function initApp() {
-  // Install built-in polyfills to patch browser incompatibilities.
-  shaka.polyfill.installAll();
+let player = null;
 
-  // Check to see if the browser supports the basic APIs Shaka needs.
-  if (shaka.Player.isBrowserSupported()) {
-    // Everything looks good!
-    initPlayer();
-  } else {
-    // This browser does not have the minimum set of APIs we need.
-    console.error('Browser not supported!');
+window.onload = function() {
+  player = new Playerjs({id:"player", file:""});
+  loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените на свой URL плейлиста M3U
+};
+
+document.getElementById('channelSelect').addEventListener('change', function(){
+  if(player){
+    player.api("file", this.value);
   }
-}
-
-function initPlayer() {
-  // Create a Player instance.
-  const video = document.getElementById('video');
-  const player = new shaka.Player(video);
-
-  // Attach player to the window to make it easy to access in the JS console.
-  window.player = player;
-
-  // Listen for error events.
-  player.addEventListener('error', onErrorEvent);
-
-  // Try to load a manifest.
-  // This is an asynchronous process.
-  document.getElementById('channelSelect').addEventListener('change', function() {
-    player.load(this.value).catch(onError);  // Always catch errors in Promises.
-  });
-
-  loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
-}
-
-function onErrorEvent(event) {
-  // Extract the shaka.util.Error object from the event.
-  onError(event.detail);
-}
-
-function onError(error) {
-  // Log the error.
-  console.error('Error code', error.code, 'object', error);
-}
-
-document.addEventListener('DOMContentLoaded', initApp);
+});
 </script>
 </body>
 </html>
