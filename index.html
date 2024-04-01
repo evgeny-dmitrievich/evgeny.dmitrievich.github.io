@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css">
     <style>
         .player-wrapper {
             width: 100%;
@@ -16,13 +16,18 @@
 <body>
 
 <select id="channelSelect">
-    <option value="">Выбери канал</option>
+    <option value="">Выберите канал</option>
     <!-- Опции добавятся здесь -->
 </select>
     
-<div id="player" class="player-wrapper"></div>
+<div class="player-wrapper">
+    <video id="player" width="640" height="360" controls>
+        <source type="video/mp4">
+        Ваш браузер не поддерживает видео тег.
+    </video>
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
 <script>
     function loadPlaylist(playlistUrl) {
         fetch(playlistUrl).then(function(response) {
@@ -46,18 +51,15 @@
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-        var playerElement = document.getElementById('player');
-        var player = new Clappr.Player({
-            source: '',
-            parentId: '#player'
-        });
+        var player = new MediaElementPlayer('player');
 
         var channelSelect = document.getElementById('channelSelect');
         channelSelect.addEventListener('change', function() {
-            player.load(this.value);
+            player.setSrc(this.value);
+            player.load();
             player.play();
         });
-
+        
         loadPlaylist('https://evgeny-dmitrievich.github.io/iptv/iptv.m3u'); // Замените это вашим реальным URL плейлиста M3U
     });
 </script>
