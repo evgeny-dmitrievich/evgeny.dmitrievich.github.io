@@ -1,14 +1,20 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, http://epg.one/epg2.xml.gz" tvg-shift="+3" abs="true" 
 
 
-#EXTINF:-1 tvg-logo="" group-title="Кинозал", Tom & Jerry
-http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgODozNTo0MiBBTSZoYXNoX3ZhbHVlPUdGb2NlcVVyQWlMeCsxejl0SjVqSVE9PSZ2YWxpZG1pbnV0ZXM9MTgwJmlwPTkxLjE5MC4yMzkuOTAmY2hlY2tpcD10cnVl
-
-
 #EXTINF:-1 tvg-logo="http://telik.live/images/real-madrid-tv.png" group-title="Спорт", Real Madrid TV
 https://stream.ads.ottera.tv/cl/240403co6gkk03t0mhdi4ef4n0/1920x1080_5701132_5_f.m3u8?i=475_1545
 
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/130px-Fox_News_Channel_logo.svg.png" group-title="Новости", FOX NEWS
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/220px-Bloomberg_Television_logo.svg.png" group-title="Новости", Bloomberg
+https://dai.google.com/linear/hls/pa/event/BVlOmFGaTi6NpchccR14yA/stream/9231beee-1ebe-4d37-b898-b6bc07fcfc5f:BRU/variant/fd3e9ee6e0c218e857d9c21e6e2189a0/bandwidth/3000000.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/BBC_News_2022_%28Alt_2%29.svg/125px-BBC_News_2022_%28Alt_2%29.svg.png" group-title="Новости", BBC World News
+http://5.8.52.88:8082/qv1ih/15/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgOTowMjoxOSBBTSZoYXNoX3ZhbHVlPS9ZUDZoeUovNDM2eG03N0ZiTzhyL3c9PSZ2YWxpZG1pbnV0ZXM9MTgwJmlwPTkxLjE5MC4yMzkuOTAmY2hlY2tpcD10cnVl
+
+
+#EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
+http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgODozNTo0MiBBTSZoYXNoX3ZhbHVlPUdGb2NlcVVyQWlMeCsxejl0SjVqSVE9PSZ2YWxpZG1pbnV0ZXM9MTgwJmlwPTkxLjE5MC4yMzkuOTAmY2hlY2tpcD10cnVl
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 https://edge01-alm.beetv.kz/bpk-token/2an@1agqvw3eyaw0g2ioc3tlzmaln1gqbmvn1oklcmba/btv/SWM/vip_comedy_hd/vip_comedy_hd.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
@@ -135,6 +141,8 @@ https://strm.yandex.ru/kal/kinopremiera_hd_belarus/kinopremiera_hd_belarus0.m3u8
 https://strm.yandex.ru/kal/kinoman_belarus/kinoman_belarus0.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie" tvg-logo="https://epgx.site/p/kinosvidanie.png" group-title="Кинозал",Киносвидание
 http://91.205.199.3/kinosvidanie/index.m3u8
+#EXTINF:-1 tvg-id="lubimoe-kino" tvg-logo="https://epgx.site/p/lubimoe-kino.png" group-title="Кинозал",Любимое Кино (EDTV 576p)
+https://mfe02.cliptv.az/dash/Lyubimoe_Kino_SDtytghfgs.ism/playlist.mpd
 #EXTINF:-1 tvg-id="kinosemiya" tvg-logo="https://epgx.site/p/kinosemia.png" group-title="Кинозал",Киносемья (WSVGA)
 http://91.205.199.3:80/kinosemyahd/index.m3u8
 #EXTINF:-1 tvg-id="kinoseria" tvg-logo="https://epgx.site/p/kinoseria.png" group-title="Кинозал", Киносерия
@@ -259,6 +267,8 @@ http://otv.wotom.net:4433/udp/238.1.1.100:1234
 #EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (HD)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
+#EXTINF:-1 tvg-logo="https://img.redbull.com/images/w_250/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv" group-title="Развлекательные", Red Bull TV HD
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 
 
 #EXTINF:-1 group-title="Познавательные", Большая Азия HD
