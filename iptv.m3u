@@ -5,12 +5,6 @@
 https://stream.ads.ottera.tv/cl/240403co6gkk03t0mhdi4ef4n0/1920x1080_5701132_5_f.m3u8?i=475_1545
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/130px-Fox_News_Channel_logo.svg.png" group-title="Новости", FOX NEWS
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/220px-Bloomberg_Television_logo.svg.png" group-title="Новости", Bloomberg
-https://dai.google.com/linear/hls/pa/event/BVlOmFGaTi6NpchccR14yA/stream/9231beee-1ebe-4d37-b898-b6bc07fcfc5f:BRU/variant/fd3e9ee6e0c218e857d9c21e6e2189a0/bandwidth/3000000.m3u8
-
-
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
 http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgMTE6NDg6NTggQU0maGFzaF92YWx1ZT1qRmc2bE1TbmFyVEZDNnFjbjlkOHRnPT0mdmFsaWRtaW51dGVzPTE4MCZpcD05MS4xOTAuMjM5LjkwJmNoZWNraXA9dHJ1ZQ==
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
