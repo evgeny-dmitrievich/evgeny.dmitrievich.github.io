@@ -10,7 +10,7 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/220px-Bloomberg_Television_logo.svg.png" group-title="Новости", Bloomberg
 https://dai.google.com/linear/hls/pa/event/BVlOmFGaTi6NpchccR14yA/stream/9231beee-1ebe-4d37-b898-b6bc07fcfc5f:BRU/variant/fd3e9ee6e0c218e857d9c21e6e2189a0/bandwidth/3000000.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/BBC_News_2022_%28Alt_2%29.svg/125px-BBC_News_2022_%28Alt_2%29.svg.png" group-title="Новости", BBC World News
-http://5.8.52.88:8082/qv1ih/15/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgOTowMjoxOSBBTSZoYXNoX3ZhbHVlPS9ZUDZoeUovNDM2eG03N0ZiTzhyL3c9PSZ2YWxpZG1pbnV0ZXM9MTgwJmlwPTkxLjE5MC4yMzkuOTAmY2hlY2tpcD10cnVl
+http://5.8.52.88:8082/qv1ih/15/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
