@@ -4,7 +4,8 @@
 #EXTINF:-1 tvg-logo="http://telik.live/images/real-madrid-tv.png" group-title="Спорт", Real Madrid TV
 https://stream.ads.ottera.tv/cl/240403co6gkk03t0mhdi4ef4n0/1920x1080_5701132_5_f.m3u8?i=475_1545
 
-
+#EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
+http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgNDoxOToxMSBQTSZoYXNoX3ZhbHVlPUJLMTg0TzlaSi93VDNtV1piTzhMTEE9PSZ2YWxpZG1pbnV0ZXM9MTgwJmlwPTc5LjEzOS4xMzYuMjE4JmNoZWNraXA9dHJ1ZQ==
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
 http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgMTE6NDg6NTggQU0maGFzaF92YWx1ZT1qRmc2bE1TbmFyVEZDNnFjbjlkOHRnPT0mdmFsaWRtaW51dGVzPTE4MCZpcD05MS4xOTAuMjM5LjkwJmNoZWNraXA9dHJ1ZQ==
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
