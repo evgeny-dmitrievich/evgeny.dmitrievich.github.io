@@ -1,60 +1,57 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, http://epg.one/epg2.xml.gz" tvg-shift="+3" abs="true" 
 
-#EXTINF:-1 group-title="Спорт", Real Madrid TV
+
+#EXTINF:-1 tvg-logo="http://telik.live/images/real-madrid-tv.png" group-title="Спорт", Real Madrid TV
 https://stream.ads.ottera.tv/cl/240403co6gkk03t0mhdi4ef4n0/1920x1080_5701132_5_f.m3u8?i=475_1545
+
+
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://edge01-alm.beetv.kz/bpk-token/2an@1agqvw3eyaw0g2ioc3tlzmaln1gqbmvn1oklcmba/btv/SWM/vip_comedy_hd/vip_comedy_hd.m3u8
+#EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 http://158.101.222.193:88/vesti/play.php?channel_id=46
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/203/mono.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://188.113.190.15/203/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000870.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8013/play/a00h/index.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://91.205.199.7:8000/play/a0r0
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://88.85.172.243:7006/play/a00y
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="Кинозал",Viju+ Megahit (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000869.m3u8
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="Кинозал",Viju+ Megahit (HD)
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://88.85.172.243:7006/play/a00x
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="Кинозал",Viju+ Megahit (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8013/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="Кинозал",Viju+ Megahit (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/202/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="Кинозал",Viju+ Megahit (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://188.113.190.15/202/mono.m3u8
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="Кинозал",Viju+ Megahit (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0qz
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="Кинозал",Viju+ Megahit (HD)
+https://edge01-alm.beetv.kz/bpk-token/2an@ckzwwvi0f10wsgazrmczmsnnlrqkwvnfcevnbpaa/btv/SWM/vip_megahit_hd/vip_megahit_hd.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="Кинозал",Viju+ Premiere (EDTV 576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://83.234.207.29:8013/play/a00f/index.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="Кинозал",Viju+ Premiere (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://edge03-alm.beetv.kz/bpk-token/2an@kyy2211hdttp52zpvjviirzzxxcggh54kcd2hnda/btv/SWM/vip_premiere_hd/vip_premiere_hd.m3u8
+#EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="Кинозал",Viju+ Premiere (EDTV 576p)
 http://188.113.190.15/201/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="Кинозал",Viju+ Premiere (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/201/mono.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="Кинозал",Viju+ Premiere (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0qy
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="Кинозал",Viju+ Premiere (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000868.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="Кинозал",Viju+ Premiere (EDTV 576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
@@ -63,13 +60,12 @@ http://92.242.110.52:9835/udp/238.1.3.8:1234
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://88.85.172.243:7006/play/a00w
 #EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://epgx.site/p/vip-serial.png" group-title="Кинозал",Viju+ Serial (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8013/play/a00c/index.m3u8
 #EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://epgx.site/p/vip-serial.png" group-title="Кинозал",Viju+ Serial (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
+https://edge04-alm.beetv.kz/bpk-token/2an@sw4zjse20hhjsrzlftbzv3ttezuvposesgbzseaa/btv/SWM/vip_serial_hd/vip_serial_hd.m3u8
+#EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://epgx.site/p/vip-serial.png" group-title="Кинозал",Viju+ Serial (HD)
 http://91.205.199.3/vipserialhd/index.m3u8
 #EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://epgx.site/p/vip-serial.png" group-title="Кинозал",Viju+ Serial (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://176.113.48.221:8986/68
 #EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://epgx.site/p/vip-serial.png" group-title="Кинозал",Viju+ Serial (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -78,7 +74,6 @@ https://bkm.beetv.kz/btv/live/hls/000004375.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://91.205.199.7:8000/play/a0r9
 #EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://epgx.site/p/vip-serial.png" group-title="Кинозал",Viju+ Serial (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://88.85.172.243:7006/play/a017
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://epgx.site/p/sony-turbo.png" group-title="Кинозал",.black (EDTV 576p)
 http://91.205.199.3/black/tracks-v1a1/mono.m3u8
@@ -148,28 +143,8 @@ http://91.205.199.3:80/kinoxithd/index.m3u8
 https://streamer1.connectto.com/519/mono.m3u8
 #EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://epgx.site/p/russkaya-komedia.png" group-title="Кинозал",Комедия (EDTV 576p)
 http://91.142.158.107:8092/play/30/index.m3u8
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://epgx.site/p/mosfilm.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция (EDTV 576p)
-http://otv.wotom.net:4433/udp/238.1.1.100:1234
 #EXTINF:-1 tvg-id="nst" tvg-logo="https://epgx.site/p/nst.png" group-title="Кинозал",НСТ (EDTV 576p)
 http://strm.yandex.ru/kal/nst_belarus/nst_belarus0.m3u8
-#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Русский кинозал",НТВ Хит (EDTV 576p)
-https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал", Смотрим
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/tracks-v3a1/mono.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал",НТВ Сериал (EDTV 576p)
-https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
-#EXTINF:-1 tvg-id="rodnoe-kino" tvg-logo="https://epgx.site/p/rodnoe-kino.png" group-title="Русский кинозал" user-agent="ExoPlayer2/2.37",Родное кино (SDTV 576i)
-https://strm.yandex.ru/kal/rodnoe_kino_belarus/rodnoe_kino_belarus0.m3u8
-#EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://epgx.site/p/russky-bestseller.png" group-title="Русский кинозал",Русский бестселлер (EDTV 576p)
-http://91.142.158.107:8092/play/26/index.m3u8
-#EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://epgx.site/p/russky-detektiv.png" group-title="Русский кинозал",Русский детектив (EDTV 576p)
-http://91.142.158.107:8092/play/27/index.m3u8
-#EXTINF:-1 tvg-id="russky-illuzion" tvg-logo="https://epgx.site/p/russky-illuzion.png" group-title="Русский кинозал",Русский иллюзион (EDTV 576p)
-http://195.191.130.11:9000/play/a00u/index.m3u8
-#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epgx.site/p/russky-roman.png" group-title="Русский кинозал",Русский роман (EDTV 576p)
-http://91.142.158.107:8092/play/25/index.m3u8
-#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epgx.site/p/russky-roman.png" group-title="Русский кинозал",Русский роман (EDTV 576p)
-http://188.113.190.15/221/tracks-v1a1/index.m3u8
 #EXTINF:-1  tvg-id="sapfir" tvg-logo="https://epgx.site/p/sapfir.png" group-title="Кинозал",Сапфир (HD)
 http://188.113.190.15/182/tracks-v1a1/index.m3u8
 #EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозал",Фантастика (HD)
@@ -249,15 +224,39 @@ https://bkm.beetv.kz/btv/live/hls/000003747.m3u8
 http://91.205.199.3/tv1000action/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action" tvg-logo="https://epgx.site/p/tv1000-action.png" group-title="Кинозал",Viju TV1000 Action (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000003910.m3u8
+
+
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epgx.site/p/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV 576p)
 http://83.234.207.29:8011/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epgx.site/p/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000003748.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Русский кинозал",НТВ Хит (EDTV 576p)
+https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал", Смотрим
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/tracks-v3a1/mono.m3u8
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал",НТВ Сериал (EDTV 576p)
+https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
+#EXTINF:-1 tvg-id="rodnoe-kino" tvg-logo="https://epgx.site/p/rodnoe-kino.png" group-title="Русский кинозал" user-agent="ExoPlayer2/2.37",Родное кино (SDTV 576i)
+https://strm.yandex.ru/kal/rodnoe_kino_belarus/rodnoe_kino_belarus0.m3u8
+#EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://epgx.site/p/russky-bestseller.png" group-title="Русский кинозал",Русский бестселлер (EDTV 576p)
+http://91.142.158.107:8092/play/26/index.m3u8
+#EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://epgx.site/p/russky-detektiv.png" group-title="Русский кинозал",Русский детектив (EDTV 576p)
+http://91.142.158.107:8092/play/27/index.m3u8
+#EXTINF:-1 tvg-id="russky-illuzion" tvg-logo="https://epgx.site/p/russky-illuzion.png" group-title="Русский кинозал",Русский иллюзион (EDTV 576p)
+http://195.191.130.11:9000/play/a00u/index.m3u8
+#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epgx.site/p/russky-roman.png" group-title="Русский кинозал",Русский роман (EDTV 576p)
+http://91.142.158.107:8092/play/25/index.m3u8
+#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epgx.site/p/russky-roman.png" group-title="Русский кинозал",Русский роман (EDTV 576p)
+http://188.113.190.15/221/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://epgx.site/p/mosfilm.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция (EDTV 576p)
+http://otv.wotom.net:4433/udp/238.1.1.100:1234
+
+
 #EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (HD)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
-#EXTINF:-1 tvg-id="tlc" tvg-logo="https://epgx.site/p/tlc.png" group-title="Хобби и увлечения",TLC (EDTV 576p)
-https://bkm.beetv.kz/btv/live/hls/000001498.m3u8  
+
+
 #EXTINF:-1 group-title="Познавательные", Большая Азия HD
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", В мире животных
@@ -328,6 +327,8 @@ https://bkm.beetv.kz/btv/live/hls/000000034.m3u8
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 tvg-id="rtg-tv" tvg-logo="http://epg.it999.ru/img2/648.png" group-title="Познавательные",RTG TV (EDTV 576p)
 https://strm.yandex.ru/kal/rtg/rtg0.m3u8
+
+
 #EXTINF:-1 group-title="Хобби и увлечения", Еда Премиум Международный HD
 https://strm.yandex.ru/kal/eda_premium_int_belarus/eda_premium_int_belarus0.m3u8
 #EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://epgx.site/p/zagorodnaya-zhizn.png" group-title="Хобби и увлечения",Загородная Жизнь (EDTV 576p)
@@ -338,125 +339,92 @@ http://188.113.190.15/314/tracks-v1a1/index.m3u8
 http://92.242.110.52:9835/udp/238.1.7.5:1234
 #EXTINF:-1 group-title="Хобби и увлечения" _"e-tv", E TV
 http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="tlc" tvg-logo="https://epgx.site/p/tlc.png" group-title="Хобби и увлечения",TLC (EDTV 576p)
+https://bkm.beetv.kz/btv/live/hls/000001498.m3u8  
+
 
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.247.68.229:8000/play/eee/index.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://camera.global-x.ru/1HD/index.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/192/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://camera.global-x.ru/1HD/mono.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://sc.id-tv.kz/1hd.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000001020.m3u8
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/hits-360.webp" group-title="Музыкальные",Hits 360
 https://cdn.essastream.com:3023/live/hits360tvlive.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://195.26.83.96:7007/play/a00m/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://otv.wotom.net:4433/udp/238.1.1.117:1234
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8007/play/a02j/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://87.76.32.36:9106/udp/238.1.1.117:1234
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.2.88:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://92.242.110.52:9835/udp/238.1.9.3:1234
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.180:2000
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://streaming.tv-teleport.ru/Bridge_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://streaming.tv-teleport.ru/Bridge_TV/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0qo
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные", Bridge TV
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.180:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://stream01.vnet.am/BRIDGETVClassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/133/mono.m3u8
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/302/tracks-v1a1/index.m3u8
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://178.163.2.88:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://109.171.45.109:81/udp/239.54.5.5:1224
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://37.205.83.56:81/udp/239.54.5.5:1224
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.223:2000
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://82.200.60.211:4022/udp/239.54.5.5:1224
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0p1
 #EXTINF:-1 _"BRIDGEClassic.ru" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" ...="Bridge TV Classic" group-title="Музыкальные",Bridge TV Classic [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.223:2000
 #EXTINF:-1 _"bridge-hd" tvg-logo="https://epgx.site/p/bridge-hd.png" ...="Bridge TV Deluxe" group-title="Музыкальные",Bridge TV Deluxe [1920x1080]
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
@@ -464,207 +432,143 @@ http://92.242.110.52:9835/udp/238.1.4.2:1234
 #EXTINF:-1 _"bridge-hd" tvg-logo="https://epgx.site/p/bridge-hd.png" ...="Bridge TV Deluxe" group-title="Музыкальные",Bridge TV Deluxe [1920x1080]
 https://strm.yandex.ru/kal/bridgetvdeluxe/bridgetvdeluxe0.m3u8
 #EXTINF:-1 _"BRIDGEHits.ru" tvg-logo="https://epgx.site/p/bridge-tv-dance.png" ...="Bridge TV Hits" group-title="Музыкальные",Bridge TV Hits [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/122/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://epgx.site/p/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/75/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://epgx.site/p/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/75/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://epgx.site/p/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://176.113.48.221:8986/147
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://178.163.2.88:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.13:2000
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://92.242.110.52:9835/udp/238.1.9.5:1234
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0rq
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://88.85.172.243:7012/play/a02i
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.13:2000
 #EXTINF:-1 _"BRIDGEFresh.ru" tvg-logo="https://epgx.site/p/bridge-tv-fresh.png" ...="BRIDGE Фрэш" group-title="Музыкальные",Bridge TV Фрэш [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://ec1df710.edmonst.net/iptv/N452PD2NQGMCCD/9053/index.m3u8
 #EXTINF:-1 _"BRIDGEFresh.ru" tvg-logo="https://epgx.site/p/bridge-tv-fresh.png" ...="BRIDGE Фрэш" group-title="Музыкальные",Bridge TV Фрэш [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/88/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/137/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://178.163.2.88:4022/udp/234.0.0.179:2000
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://epgx.site/p/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://clubbingtv-samsunguk.amagi.tv/playlist720_p.m3u8
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://epgx.site/p/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://clubbingtv-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.183:2000
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
-http://185.134.36.46:4022/udp/234.0.0.183:2000
-#EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.183:2000
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
-http://185.134.36.25:4022/udp/234.0.0.183:2000
-#EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.183:2000
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.183:2000
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.183:2000
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://92.242.110.52:9835/udp/238.1.6.5:1234
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://178.163.2.88:4022/udp/234.0.0.183:2000
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.183:2000
 #EXTINF:-1 _"MCMTop.ru" tvg-logo="https://i.imgur.com/EVtWQLd.png" ...="MCM Top" group-title="Музыкальные",MCM Top [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://92.242.110.52:9835/udp/238.1.9.9:1234
 #EXTINF:-1 _"MCMTop.ru" tvg-logo="https://i.imgur.com/EVtWQLd.png" ...="MCM Top" group-title="Музыкальные",MCM Top [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000327.m3u8
 #EXTINF:-1 tvg-logo="" ...="MIXM TV" group-title="Музыкальные",MIXM TV [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://hls.goodgame.ru/hls/181490.m3u8
 #EXTINF:-1 group-title="Музыкальные", MIXM TV [1920x1080]
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://hlss.goodgame.ru/hls/181490.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/MTV_00s_remaster.png" ...="VH1 Europe" group-title="Музыкальные",MTV 00's [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000264.m3u8
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://94.230.128.105:8080/MUSIC/index.m3u8
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://camera.global-x.ru/RussianMusicBox/mono.m3u8
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/158/mono.m3u8
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://camera.global-x.ru/RussianMusicBox/index.m3u8
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.2.88:4022/udp/234.0.0.150:2000
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://37.205.83.56:81/udp/239.54.5.6:1224
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://82.200.60.211:4022/udp/239.54.5.6:1224
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://109.171.45.109:81/udp/239.54.5.6:1224
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.150:2000
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.150:2000
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.150:2000
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.150:2000
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.150:2000
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.150:2000
 #EXTINF:-1 _"RussianMusicBox.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" ...="MusicBox Russia" group-title="Музыкальные",MusicBox Russia [720x576]
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://185.134.38.189:4022/udp/234.0.0.150:2000
 #EXTINF:-1 tvg-logo="" ...="Music Reload TV" group-title="Музыкальные",Music Reload TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://web.onair-radio.eu:1935/video/video/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/kavkaz-music.webp" group-title="Музыкальные",Music Reload TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
 #EXTINF:-1 _"MusicBoxGold.ru" tvg-logo="https://i.imgur.com/3arWh0k.png" ...="MusicBox Gold" group-title="Музыкальные",MusicBox Gold [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://109.171.45.109:81/udp/239.54.5.7:1224
 #EXTINF:-1 _"MusicBoxGold.ru" tvg-logo="https://i.imgur.com/3arWh0k.png" ...="MusicBox Gold" group-title="Музыкальные",MusicBox Gold [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://82.200.60.211:4022/udp/239.54.5.7:1224
 #EXTINF:-1 _"MusicBoxGold.ru" tvg-logo="https://i.imgur.com/3arWh0k.png" ...="MusicBox Gold" group-title="Музыкальные",MusicBox Gold [720x576]
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://37.205.83.56:81/udp/239.54.5.7:1224
 #EXTINF:-1 _"NOWRock.uk" tvg-logo="https://i.imgur.com/GuM4GnX.png" ...="NOW 90s" group-title="Музыкальные",NOW Rock [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 _"Now80s.uk" tvg-logo="https://i.imgur.com/YyPnMeB.png" ...="Now 80`s" group-title="Музыкальные",Now 80`s [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://lightning-now80s-samsungnz.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 _"Now80s.uk" tvg-logo="https://i.imgur.com/YyPnMeB.png" ...="Now 80`s" group-title="Музыкальные",Now 80`s [1280x720]
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -673,82 +577,60 @@ https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://88.85.172.243:7012/play/a02g
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://94.230.128.105:8080/RU.TV/mono.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://94.230.128.105:8080/RU.TV/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://hls-03-video.webcaramba.com/rutv/live_480/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8007/play/a00f/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://91.205.199.3/rutv/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/59/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://otv.wotom.net:4433/udp/238.1.1.70:1234
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://hls-03-video.webcaramba.com/rutv/live.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 https://edge02.odtv.az/o7/rutv/playlist.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://87.76.32.36:9106/udp/238.1.1.70:1234
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://streaming.tv-teleport.ru/RU_TV/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://92.242.110.52:9835/udp/238.1.9.14:1234
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://91.205.199.7:8000/play/a0py
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://88.85.172.243:7004/play/a01i
 #EXTINF:-1 _"SONGTVRussia.ru" tvg-logo="https://i.imgur.com/nM7LbmV.png" ...="SONG TV Russia" group-title="Музыкальные",SONG TV Russia
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://songtv.hls.iptvdc.com/web-russia/tracks-v1a1/mono.m3u8
 #EXTINF:-1 _"SONGTVRussia.ru" tvg-logo="https://i.imgur.com/nM7LbmV.png" ...="SONGTV Russia" group-title="Музыкальные",SONG TV Russia
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://songtv.hls.iptvdc.com/web-russia/tracks-v3a1/mono.m3u8
 #EXTINF:-1 _"SONGTVRussia.ru" tvg-logo="https://i.imgur.com/nM7LbmV.png" ...="SONGTV Russia" group-title="Музыкальные",SONG TV Russia
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://songtv.hls.iptvdc.com/web-russia/index.m3u8
 #EXTINF:-1 _"SpiritTV.us" tvg-logo="https://i.imgur.com/yCp6vXz.png" ...="Spirit TV" group-title="Музыкальные",Spirit TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 _"SpiritTV.us" tvg-logo="https://i.imgur.com/yCp6vXz.png" ...="Spirit TV" group-title="Музыкальные",Spirit TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/index.m3u8
 #EXTINF:-1 _"SpiritTV.us" tvg-logo="https://i.imgur.com/yCp6vXz.png" ...="Spirit TV" group-title="Музыкальные",Spirit TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 _"TraceUrbanHD.ru" tvg-logo="https://i.imgur.com/xRJDVR3.png" ...="Trace Urban HD" group-title="Музыкальные",Trace Urban HD
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 _"V2BEATTV.uk" tvg-logo="https://i.imgur.com/PXGqyLn.png" ...="V2BEAT TV" group-title="Музыкальные",V2BEAT TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 _"V2BEATTV.uk" tvg-logo="https://i.imgur.com/PXGqyLn.png" ...="V2BEAT TV" group-title="Музыкальные",V2BEAT TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://abr.de1se01.v2beat.live/live/live6/chunks.m3u8
 #EXTINF:-1 _"V2BEATTV.uk" tvg-logo="https://i.imgur.com/PXGqyLn.png" ...="V2BEAT TV" group-title="Музыкальные",V2BEAT TV [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
 http://91.247.68.229:8000/play/eee/index.m3u8
@@ -811,198 +693,131 @@ https://d28edobz3hqdpi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d93b635b43dd1a399b39eee/master.m3u8?sid=0885&deviceId=5d93b635b43dd1a399b39eee&deviceVersion=DNT&appVersion=DNT&deviceType=web&deviceMake=web&advertisingId=&deviceLat=&deviceLon=&deviceDNT=1&deviceModel=web&userId=&app_name=&appName=web&serverSideAds=false&buildVersion=&architecture=&appStoreUrl=&includeExtendedEvents=false&terminate=false&marketingRegion=US
 #EXTINF:-1 _"VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" ...="Viva Russia" group-title="Музыкальные",Viva Russia [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://hls.goodgame.ru/hls/180805.m3u8
 #EXTINF:-1 _"VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" ...="Viva Russia" group-title="Музыкальные",Viva Russia [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
-http://hlss.goodgame.ru/hls/180805.m3u8
-#EXTINF:-1 _"VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" ...="Viva Russia" group-title="Музыкальные",Viva Russia [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://ipv4.bozztv.com/ssh101/ssh101/vivarussia/playlist.m3u8
 #EXTINF:-1 _"VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" ...="Viva Russia" group-title="Музыкальные",Viva Russia [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://ssh101.bozztv.com/ssh101/vivarussia/chunks.m3u8
 #EXTINF:-1 _"VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" ...="Viva Russia" group-title="Музыкальные",Viva Russia [1920x1080]
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 https://s.catcast.tv/content/39575/index.m3u8
-#EXTINF:-1 _"VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" ...="Viva Russia" group-title="Музыкальные",Viva Russia [1920x1080]
-
 #EXTINF:-1 _"BelMuzTV.by" tvg-logo="https://i.imgur.com/31MPLIL.png" ...="БелМузТВ" group-title="Музыкальные",БелМуз [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.124.179.122:8088/BelMuzTV/index.m3u8
 #EXTINF:-1 _"BelMuzTV.by" tvg-logo="https://i.imgur.com/31MPLIL.png" ...="БелМузТВ" group-title="Музыкальные",БелМуз [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.124.179.122:8088/BelMuzTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 _"ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" ...="Жар Птица" group-title="Музыкальные",Жар Птица [720x404]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/chunklist.m3u8
-#EXTINF:-1 _"ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" ...="Жар Птица" group-title="Музыкальные",Жар Птица [720x404]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
-http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/328/tracks-v1a1/index.m3u8
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/328/mono.m3u8
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://otv.wotom.net:4433/udp/238.1.1.106:1234
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://176.56.50.150:9990/udp/224.0.224.16:1234
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://92.242.110.52:9835/udp/238.1.6.6:1234
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://178.163.2.88:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.214:2000
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://87.76.32.36:9106/udp/238.1.1.106:1234
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0oy
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.214:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://stream01.vnet.am/MuzTv/mono.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://81.177.197.13:8000/play/a00j/index.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://streamer2.fokks.ru:10020/index.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8004/play/a013/index.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.142.158.107:8092/play/20/index.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://otv.wotom.net:4433/udp/238.1.1.90:1234
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://sc.id-tv.kz/MuzTV.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 https://streaming.televizor-24-tochka.ru/live/20-req_offset_28000000-req_window_0-2k_v5.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://streaming.televizor-24-tochka.ru/live/20-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://edge02.odtv.az/o5/muztv/playlist.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://87.76.32.36:9106/udp/238.1.1.90:1234
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.212.236.3:8802/play/m2_29
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.2.88:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.96:2000
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000073.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://streaming.televizor-24-tochka.ru/live/20.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0nx
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://109.239.208.82/muz1/index.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.221.201.2:7013/play/a003/index.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8008/play/a01o/index.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/109/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://195.26.83.96:7022/play/a00w/index.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://otv.wotom.net:4433/udp/238.1.1.8:1234
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.81:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://87.76.32.36:9106/udp/238.1.1.8:1234
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://87.76.32.36:9106/udp/238.1.1.172:1234
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
@@ -1011,13 +826,10 @@ http://otv.wotom.net:4433/udp/238.1.1.172:1234
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://92.242.110.52:9835/udp/238.1.11.28:1234
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.2.88:4022/udp/234.0.0.182:2000
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://streaming.tv-teleport.ru/Muzika_Pervogo/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000204.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -1026,100 +838,68 @@ https://cdn1.skygo.mn/live/disk1/Muzika/HLS-FTA/Muzika.m3u8
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://streaming.tv-teleport.ru/Muzika_Pervogo/index.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.182:2000
 #EXTINF:-1 _"o2tv.ru" tvg-logo="https://i.imgur.com/CM6z7fA.png" ...="о2тв" group-title="Музыкальные",О!2 [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://188.113.190.15/189/mono.m3u8
 #EXTINF:-1 _"o2tv.ru" tvg-logo="https://i.imgur.com/CM6z7fA.png" ...="о2тв" group-title="Музыкальные",О!2 [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
-http://188.113.190.15/189/tracks-v1a1/index.m3u8
-#EXTINF:-1 _"o2tv.ru" tvg-logo="https://i.imgur.com/CM6z7fA.png" ...="о2тв" group-title="Музыкальные",О!2 [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://195.26.83.96:7006/play/1/index.m3u8
 #EXTINF:-1 _"o2tv.ru" tvg-logo="https://i.imgur.com/CM6z7fA.png" ...="о2тв" group-title="Музыкальные",О!2 [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://217.11.177.56/streams/media/o2tv_720x576/index.m3u8
 #EXTINF:-1 _"o2tv.ru" tvg-logo="https://i.imgur.com/CM6z7fA.png" ...="о2тв" group-title="Музыкальные",О!2 [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://otv.wotom.net:4433/udp/238.1.1.17:1234
 #EXTINF:-1 _"o2tv.ru" tvg-logo="https://i.imgur.com/CM6z7fA.png" ...="о2тв" group-title="Музыкальные",О!2 [720x576]
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://87.76.32.36:9106/udp/238.1.1.17:1234
 #EXTINF:-1 _"o2tv.ru" tvg-logo="https://i.imgur.com/CM6z7fA.png" ...="о2тв" group-title="Музыкальные",О!2 [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://91.205.199.7:8000/play/a0rp
 #EXTINF:-1 _"FirstMusicChannel.by" tvg-logo="https://i.imgur.com/YdyFJrl.png" ...="Первый Музыкальный Канал" group-title="Музыкальные",Первый Музыкальный [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 _"FirstMusicChannel.by" tvg-logo="https://i.imgur.com/YdyFJrl.png" ...="Первый Музыкальный Канал" group-title="Музыкальные",Первый Музыкальный [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
-http://hz1.teleport.cc/HLS/SD.m3u8
-#EXTINF:-1 _"FirstMusicChannel.by" tvg-logo="https://i.imgur.com/YdyFJrl.png" ...="Первый Музыкальный Канал" group-title="Музыкальные",Первый Музыкальный [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://rtmp.one.by:1200
 #EXTINF:-1 _"FirstMusicChannelRussia.by" tvg-logo="https://i.imgur.com/rEo7nR1.png" ...="Первый Музыкальный Канал Россия" group-title="Музыкальные",Первый Музыкальный Россия [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bozztv.com/dvrfl05/gin-1muscom/tracks-v1a1/mono.m3u8
 #EXTINF:-1 _"FirstMusicChannelRussia.by" tvg-logo="https://i.imgur.com/rEo7nR1.png" ...="Первый Музыкальный Канал Россия" group-title="Музыкальные",Первый Музыкальный Россия [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://rtmp.one.by:2300
 #EXTINF:-1 _"FirstMusicChannelRussia.by" tvg-logo="https://i.imgur.com/rEo7nR1.png" ...="Первый Музыкальный Канал Россия" group-title="Музыкальные",Первый Музыкальный Россия [720x576]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://rtmp.one.by:2200
 #EXTINF:-1 _"FirstMusicChannel.by" tvg-logo="https://i.imgur.com/YdyFJrl.png" ...="Первый Музыкальный Канал" group-title="Музыкальные",Первый Музыкальный [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://83.234.207.29:8004/play/a01a/index.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://otv.wotom.net:4433/udp/238.1.1.46:1234
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://tntmsmotr.mediacdn.ru/cdn/smotr/playlist.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.124.179.122:8088/tnt_music/index.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://185.134.36.81:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.46:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.36.25:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.37.154:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://178.163.2.88:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.4.30:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.41.245:81/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://185.134.38.189:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://178.163.58.232:4022/udp/234.0.0.231:2000
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bkm.beetv.kz/btv/live/hls/000000013.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://87.76.32.36:9106/udp/238.1.1.46:1234
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
@@ -1128,28 +908,21 @@ http://91.205.199.7:8000/play/a0nt
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
 http://195.26.83.96:7029/play/9
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://streaming.tv-teleport.ru/TNT_Music/index.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://cherikov.dvb.by:8080/udp/239.0.100.161:1234
 #EXTINF:-1 _"CaliforniaMusicChannel.us" tvg-logo="https://i.imgur.com/L38mC6H.png" ...="California Music Channel [us]" group-title="Музыкальные",California Music Channel [us] [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://cmc-ono.amagi.tv/playlist.m3u8
 #EXTINF:-1 _"DSTV.bg" tvg-logo="https://smotret.tv/images/dancestar-tv.webp" ...="DSTV [bg]" group-title="Музыкальные",DSTV [bg] [1920x1080]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 http://46.249.95.140:8081/hls/data.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/St5DhAU.png" group-title="Музыкальные", MTV Live
 http://91.205.199.7:8000/play/a0ne
 #EXTINF:-1 tvg-logo="https://i.imgur.com/St5DhAU.png" group-title="Музыкальные", MTV Live
 https://bkm.beetv.kz/btv/live/hls/000000447.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OoJSmoj.png" ...="The Voice [bg]" group-title="Музыкальные",The Voice [bg] [1280x720]
-#EXTVLCOPT:http-user-agent=Donate BTC bc1q2zucynhgqfznfhk48r6ewlmk55z5sw38mqaffe
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:-1 group-title="Музыкальные",Magic TV (720p)
 https://bss1.neterra.tv/magictv/magictv.m3u8
-
-
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/company-tv.webp" group-title="Музыкальные", COMPANY TV
 https://company.fluid.stream/CompanyTV/smil:Company_ALL.smil/playlist_slita.m3u8
 #EXTINF:-1 group-title="Музыкальные", Dance Hits of 90s
