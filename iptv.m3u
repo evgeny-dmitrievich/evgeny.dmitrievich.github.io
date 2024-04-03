@@ -12,7 +12,7 @@ https://dai.google.com/linear/hls/pa/event/BVlOmFGaTi6NpchccR14yA/stream/9231bee
 
 
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
-http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8
+http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8zLzIwMjQgMTE6NDg6NTggQU0maGFzaF92YWx1ZT1qRmc2bE1TbmFyVEZDNnFjbjlkOHRnPT0mdmFsaWRtaW51dGVzPTE4MCZpcD05MS4xOTAuMjM5LjkwJmNoZWNraXA9dHJ1ZQ==
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 https://edge01-alm.beetv.kz/bpk-token/2an@1agqvw3eyaw0g2ioc3tlzmaln1gqbmvn1oklcmba/btv/SWM/vip_comedy_hd/vip_comedy_hd.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
