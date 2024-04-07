@@ -6,7 +6,7 @@ https://stream.ads.ottera.tv/cl/240403co6gkk03t0mhdi4ef4n0/1920x1080_5701132_5_f
 
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
 http://217.79.179.127:8082/rDs0/ts/tomdj.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC82LzIwMjQgMTE6MDc6NDcgQU0maGFzaF92YWx1ZT1MbmNLcDYvMFY2MUYrMUZneHhnUlVBPT0mdmFsaWRtaW51dGVzPTE4MCZpcD05MC4xNTQuNzAuMTc5JmNoZWNraXA9dHJ1ZQ==
-#EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry 2
+#EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry (FLASH)
 https://evgeny-dmitrievich.github.io/iptv/Tom_and_Jerry.m3u
 
 
