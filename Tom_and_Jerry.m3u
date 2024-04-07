@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Tom & Jerry",Tom & Jerry Серия 001 Кот получает пинка
-/storage/0ED2B7ADD2B79783/001.mp4
+file:///storage/0ED2B7ADD2B79783/001.mp4
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Tom & Jerry",Tom & Jerry Серия 002
-/storage/0ED2B7ADD2B79783/Том и Джерри/002 - Закуска среди ночи.mp4
+file:///storage/0ED2B7ADD2B79783/Том и Джерри/002 - Закуска среди ночи.mp4
 ###EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Tom & Jerry",Tom & Jerry Серия 002
 https://nl201.cdnsqu.com/s/FHugzhYSQ20VF4qJ8fBoZ4mEFBQUFBQUFBQUFBUndPR3dRZm9BSVd6TjZURT0.Y7UO8bygdSE9Xq1lR2HN8Nsv80cpYdEQr0XdwA/Tom.i.Djerri.1940-2005/e002_480.mp4
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Tom & Jerry",Tom & Jerry Серия 003
