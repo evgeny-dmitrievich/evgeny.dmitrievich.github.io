@@ -5,6 +5,16 @@
 https://stream.ads.ottera.tv/cl/240403co6gkk03t0mhdi4ef4n0/1920x1080_5701132_5_f.m3u8?i=475_1545
 
 
+#EXTINF:-1 tvg-logo="https://cdn-icons-png.flaticon.com/512/262/262107.png" group-title="Камин", Камин
+file:///storage/0ED2B7ADD2B79783/Камин.mp4
+
+
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/977/687/png-transparent-bts-hd-logo-thumbnail.png" group-title="BTS", Концерт BTS
+file:///storage/0ED2B7ADD2B79783/Концерт BTS.mp4
+
+
+#EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
+https://evgeny-dmitrievich.github.io/iptv/Tom_and_Jerry.m3u
 
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 https://edge01-alm.beetv.kz/bpk-token/2an@1agqvw3eyaw0g2ioc3tlzmaln1gqbmvn1oklcmba/btv/SWM/vip_comedy_hd/vip_comedy_hd.m3u8
