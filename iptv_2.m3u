@@ -1,1 +1,630 @@
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
+#PLAYLIST:t.me/iptv50na50
+
+#EXTINF:-1 tvg-name=".BLACK HD" group-title="Разное",.BLACK HD [1920x1080]
+http://40687-rail.ott-cdn.me/play/live.php?mac=00:1A:79:a8:41:80&stream=293507&extension=ts&play_token=eUHY5qVTnC
+#EXTINF:-1 tvg-name=".RED FHD" group-title="Разное",.RED FHD [1920x1080]
+http://40687-rail.ott-cdn.me/play/live.php?mac=00:1A:79:a8:41:80&stream=293499&extension=ts&play_token=eUHY5qVTnC
+#EXTINF:-1 tvg-name=".sci-fi HD" group-title="Разное",.sci-fi HD [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://40687-rail.ott-cdn.me/play/live.php?mac=00:1A:79:a8:41:80&stream=293505&extension=ts&play_token=eUHY5qVTnC
+#EXTINF:-1 tvg-id="black.ru" tvg-logo="https://i.imgur.com/Q4A6ci4.png" tvg-name=".black" group-title="Фильмы",.black [1920x1080]
+http://str05.ottg.app/4668/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-id="red.ru" tvg-logo="https://i.imgur.com/GET9Qut.png" tvg-name=".red" group-title="Фильмы",.red [1920x1080]
+http://188.113.190.15/149/mono.m3u8
+#EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/2pAHdAi.png" tvg-name="А1" group-title="Фильмы",Amedia 1 [1920x1080]
+http://158.101.222.193:88/vesti/play.php?channel_id=43
+#EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/2pAHdAi.png" tvg-name="А1" group-title="Фильмы",Amedia 1 [1920x1080]
+http://str05.ottg.app/7386/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/2pAHdAi.png" tvg-name="А1" group-title="Фильмы",Amedia 1 [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bkm.beetv.kz/btv/live/hls/000000710.m3u8
+#EXTINF:-1 tvg-id="A2.ru" tvg-logo="https://i.imgur.com/NqHla2V.png" tvg-name="А2" group-title="Фильмы",Amedia 2 [1920x1080]
+http://str05.ottg.app/7515/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-id="A2.ru" tvg-logo="https://i.imgur.com/NqHla2V.png" tvg-name="А2" group-title="Фильмы",Amedia 2 [1920x1080]
+https://bkm.beetv.kz/btv/live/hls/000000351.m3u8
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+http://158.101.222.193:88/vesti/play.php?channel_id=41
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+http://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+http://185.134.36.81:4022/udp/234.0.0.169:2000
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+http://178.163.51.39:4022/udp/234.0.0.169:2000
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://185.134.36.25:4022/udp/234.0.0.169:2000
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+http://185.134.38.189:4022/udp/234.0.0.169:2000
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+http://88.85.172.243:7006/play/a00z
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+http://185.134.36.46:4022/udp/234.0.0.169:2000
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+http://178.163.37.154:4022/udp/234.0.0.169:2000
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-logo="https://i.imgur.com/a8ZBGBw.png" tvg-name="Amedia Hit" group-title="Фильмы",Amedia Hit [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+https://bkm.beetv.kz/btv/live/hls/000001662.m3u8
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" tvg-name="Amedia Premium" group-title="Фильмы",Amedia Premium [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://stream01.vnet.am/AmediaPremium/mono.m3u8
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" tvg-name="Amedia Premium" group-title="Фильмы",Amedia Premium [1920x1080]
+http://158.101.222.193:88/vesti/play.php?channel_id=42
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" tvg-name="Amedia Premium" group-title="Фильмы",Amedia Premium [1920x1080]
+http://83.234.207.29:8002/play/a005/index.m3u8
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" tvg-name="Amedia Premium" group-title="Фильмы",Amedia Premium [1920x1080]
+http://193.201.98.10:5000/c58
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" tvg-name="Amedia Premium" group-title="Фильмы",Amedia Premium [1920x1080]
+http://91.207.114.209:5000/c58
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" tvg-name="Amedia Premium" group-title="Фильмы",Amedia Premium [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://bkm.beetv.kz/btv/live/hls/000000709.m3u8
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UUjehw9.png" tvg-name="Amedia Premium" group-title="Фильмы",Amedia Premium [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://92.242.110.52:9835/udp/238.1.5.3:1234
+
+
+#EXTINF:-1 tvg-name="4Fun TV" group-title="Разное",4Fun TV [720x576]
+https://cdn-notpub-london.lolokoko.tv/4funtv.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="4FunTV.pl" tvg-logo="https://i.imgur.com/rI1wo2l.png" tvg-name="4FUN" group-title="Разное",4FUN [1024x576]
+https://stream.4fun.tv:8888/hls/4f.m3u8
+#EXTINF:-1 tvg-name="4Fun Dance" group-title="Разное",4Fun Dance [720x576]
+https://cdn-notpub-london.lolokoko.tv/4fundance.stream/chunks.m3u8
+
+
+
+#EXTINF:-1 tvg-name="BCU Action" group-title="Фильмы плюс",BCU Action [1920x1080]
+http://str05.ottg.app/7255/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Catastrophe" group-title="Фильмы плюс",BCU Catastrophe [1920x1080]
+http://str05.ottg.app/5577/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Cinema" group-title="Фильмы плюс",BCU Cinema [1920x1080]
+http://str05.ottg.app/1086/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Cinema+" group-title="Фильмы плюс",BCU Cinema+ [1920x1080]
+http://str05.ottg.app/6536/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Comedy" group-title="Фильмы плюс",BCU Comedy [1920x1080]
+http://str05.ottg.app/6571/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Comedy" group-title="Фильмы плюс",BCU Comedy [1920x1080]
+http://str05.ottg.app/2718/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Cosmo" group-title="Фильмы плюс",BCU Cosmo [1920x1080]
+http://str05.ottg.app/3559/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Criminal" group-title="Фильмы плюс",BCU Criminal [1920x1080]
+http://str05.ottg.app/3871/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Fantastic" group-title="Фильмы плюс",BCU Fantastic [1920x1080]
+http://str05.ottg.app/7834/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU FilMysti" group-title="Фильмы плюс",BCU FilMysti [1920x1080]
+http://str05.ottg.app/6071/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU History" group-title="Фильмы плюс",BCU History [1920x1080]
+http://str05.ottg.app/8129/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Kinorating" group-title="Фильмы плюс",BCU Kinorating [1920x1080]
+http://str05.ottg.app/2071/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Marvel" group-title="Фильмы плюс",BCU Marvel [1920x1080]
+http://str05.ottg.app/5671/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Marvel" group-title="Фильмы плюс",BCU Marvel [1920x1080]
+http://str05.ottg.app/1740/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Premiere Ultra" group-title="Фильмы плюс",BCU Premiere Ultra [3840x2160]
+http://str05.ottg.app/3408/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Reality" group-title="Фильмы плюс",BCU Reality [1920x1080]
+http://str05.ottg.app/2310/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Romantic" group-title="Фильмы плюс",BCU Romantic [1920x1080]
+http://str05.ottg.app/8010/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Stars" group-title="Фильмы плюс",BCU Stars [1920x1080]
+http://str05.ottg.app/9944/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Survival" group-title="Фильмы плюс",BCU Survival [1920x1080]
+http://str05.ottg.app/6035/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU TruMotion" group-title="Фильмы плюс",BCU TruMotion [1920x1080]
+http://str05.ottg.app/8885/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Ultra" group-title="Фильмы плюс",BCU Ultra [3840x2160]
+http://str05.ottg.app/3906/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU VHS" group-title="Фильмы плюс",BCU VHS [1920x1080]
+#EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
+http://str05.ottg.app/3239/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Kids" group-title="Разное",BCU Kids [1920x1080]
+http://str05.ottg.app/8585/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Kids" group-title="Разное",BCU Kids 2 [3840x2160]
+http://str05.ottg.app/6996/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Kids+" group-title="Разное",BCU Kids+ [1920x1080]
+http://str05.ottg.app/6398/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Little" group-title="Разное",BCU Little [1920x1080]
+http://str05.ottg.app/7994/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Мультсериал" group-title="Разное",BCU Мультсериал [1920x1080]
+http://str05.ottg.app/8590/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="BOX Anime HD" group-title="Разное",BOX Anime HD [1920x1080]
+http://str05.ottg.app/6203/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Apocalypse HD" group-title="Разное",BOX Apocalypse HD [1920x1080]
+http://str05.ottg.app/1372/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Autotrend HD" group-title="Разное",BOX Autotrend HD [1920x1080]
+http://str05.ottg.app/5965/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Cyber HD" group-title="Разное",BOX Cyber HD [1920x1080]
+http://str05.ottg.app/9647/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Fantasy HD" group-title="Разное",BOX Fantasy HD [1920x1080]
+http://str05.ottg.app/7903/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Franchise HD" group-title="Разное",BOX Franchise HD [1920x1080]
+http://str05.ottg.app/3034/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Game HD" group-title="Разное",BOX Game HD [1920x1080]
+http://str05.ottg.app/5320/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Gangster HD" group-title="Разное",BOX Gangster HD [1920x1080]
+http://str05.ottg.app/3832/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Ghost HD" group-title="Разное",BOX Ghost HD [1920x1080]
+http://str05.ottg.app/2824/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Hybrid HD" group-title="Разное",BOX Hybrid HD [1920x1080]
+http://str05.ottg.app/9042/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX M.Serial HD" group-title="Разное",BOX M.Serial HD [1920x1080]
+http://str05.ottg.app/8301/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Mayday HD" group-title="Разное",BOX Mayday HD [1920x1080]
+http://str05.ottg.app/2403/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Music 4K" group-title="Разное",BOX Music 4K [3840x2160]
+http://str05.ottg.app/3824/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Oscar HD" group-title="Разное",BOX Oscar HD [1920x1080]
+http://str05.ottg.app/5242/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Premiere 4K" group-title="Разное",BOX Premiere 4K [3840x2160]
+http://str05.ottg.app/7637/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Relax 4K" group-title="Разное",BOX Relax 4K [3840x2160]
+http://str05.ottg.app/6496/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Remast 4K" group-title="Разное",BOX Remast 4K [3840x2160]
+http://str05.ottg.app/2866/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Remast+ 4K" group-title="Разное",BOX Remast+ 4K [3840x2160]
+http://str05.ottg.app/8327/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Serial 4K" group-title="Разное",BOX Serial 4K [3840x2160]
+http://str05.ottg.app/6044/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Serial HD" group-title="Разное",BOX Serial HD [1920x1080]
+http://str05.ottg.app/1092/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Zombie HD" group-title="Разное",BOX Zombie HD [1920x1080]
+http://str05.ottg.app/1023/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+#EXTINF:-1 tvg-name="BOX Sport Cast" group-title="Спорт",BOX Sport Cast [1920x1080]
+http://str05.ottg.app/9045/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Sport Cast 1 Live" group-title="Спорт",BOX Sport Cast 1 Live [1920x1080]
+http://str05.ottg.app/7085/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Sport Cast 2 Live" group-title="Спорт",BOX Sport Cast 2 Live [1920x1080]
+http://str05.ottg.app/5604/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Sport Cast 3 Live" group-title="Спорт",BOX Sport Cast 3 Live [1280x720]
+http://str05.ottg.app/1794/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Sport Cast 4 Live" group-title="Спорт",BOX Sport Cast 4 Live [1920x1080]
+http://str05.ottg.app/3222/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Sport Cast 5 Live" group-title="Спорт,BOX Sport Cast 5 Live [1920x1080]
+http://str05.ottg.app/8331/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Sport Cast 6 Live" group-title="Спорт",BOX Sport Cast 6 Live [1920x1080]
+http://str05.ottg.app/7484/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Sport Cast 7 Live" group-title="Спорт",BOX Sport Cast 7 Live [1920x1080]
+http://str05.ottg.app/1791/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="BOX Spy HD" group-title="Разное",BOX Spy HD [1920x1080]
+http://str05.ottg.app/2591/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Stories HD" group-title="Разное",BOX Stories HD [1920x1080]
+http://str05.ottg.app/3282/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Travel HD" group-title="Разное",BOX Travel HD [1920x1080]
+http://str05.ottg.app/5675/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+
+#EXTINF:-1 tvg-name="Cartoon Classic" group-title="Разное",Cartoon Classic [720x576]
+http://178.163.37.154:4022/udp/234.0.0.238:2000
+#EXTINF:-1 tvg-name="Cartoon Classic" group-title="Разное",Cartoon Classic [720x576]
+http://178.163.51.39:4022/udp/234.0.0.238:2000
+#EXTINF:-1 tvg-name="Cartoon Classic" group-title="Разное",Cartoon Classic [720x576]
+http://185.134.38.189:4022/udp/234.0.0.238:2000
+#EXTINF:-1 tvg-name="Cartoon Classic" group-title="Разное",Cartoon Classic [720x576]
+http://185.134.36.25:4022/udp/234.0.0.238:2000
+#EXTINF:-1 tvg-name="Cartoon Classic" group-title="Разное",Cartoon Classic [720x576]
+http://185.134.36.46:4022/udp/234.0.0.238:2000
+#EXTINF:-1 tvg-id="Cartoonito.uk" tvg-logo="https://i.imgur.com/B29D2s1.png" tvg-name="Cartoonito eng" group-title="Разное",Cartoonito eng [1920x1080]
+http://stream01.vnet.am/Channel_120/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-name="Clarity4K Gamefilm" group-title="Разное",Clarity4K Gamefilm [3840x2160]
+http://str05.ottg.app/6225/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K HBO Series" group-title="Разное",Clarity4K HBO Series [3840x2160]
+http://str05.ottg.app/5969/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Netflix" group-title="Разное",Clarity4K Netflix [3840x2160]
+http://str05.ottg.app/2195/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Walt Disney" group-title="Разное",Clarity4K Walt Disney [3840x2160]
+http://str05.ottg.app/2860/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Боевик" group-title="Разное",Clarity4K Боевик [3840x2160]
+http://str05.ottg.app/2272/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K КиноНовинки" group-title="Разное",Clarity4K КиноНовинки [3840x2160]
+http://str05.ottg.app/2870/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K КиноФраншизы" group-title="Разное",Clarity4K КиноФраншизы [3840x2160]
+http://str05.ottg.app/7139/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Комедия" group-title="Разное",Clarity4K Комедия [3840x2160]
+http://str05.ottg.app/1709/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Космомир" group-title="Разное",Clarity4K Космомир [3840x2160]
+http://str05.ottg.app/7478/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Мультимир" group-title="Разное",Clarity4K Мультимир [3840x2160]
+http://str05.ottg.app/8783/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Приключения" group-title="Разное",Clarity4K Приключения [3840x2160]
+http://str05.ottg.app/7996/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Путешествие" group-title="Разное",Clarity4K Путешествие [3840x2160]
+http://str05.ottg.app/2792/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Семейный" group-title="Разное",Clarity4K Семейный [3840x2160]
+http://str05.ottg.app/4675/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Сумеречный Эфир" group-title="Разное",Clarity4K Сумеречный Эфир [3840x2160]
+http://str05.ottg.app/2834/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Фантастика" group-title="Разное",Clarity4K Фантастика [3840x2160]
+http://str05.ottg.app/6248/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4K Фэнтези" group-title="Разное",Clarity4K Фэнтези [3840x2160]
+http://str05.ottg.app/8818/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Clarity4k Города" group-title="Разное",Clarity4k Города [3840x2026]
+http://str05.ottg.app/2531/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="ФАНТАСТИКА HD" group-title="Разное",ФАНТАСТИКА HD [1280x720]
+http://215602c2.kazaktelekom.com/iptv/D72CVTDTWM4NGY/11070/index.m3u8
+#EXTINF:-1 tvg-name="ФАНТАСТИКА HD" group-title="Разное",ФАНТАСТИКА HD [1280x720]
+http://hls.goodgame.ru:8080/hls/187241.m3u8
+
+
+#EXTINF:-1 tvg-name="Учим English" group-title="Разное",Учим English[1280x720]
+https://fs2.persik.by/Uchim_English/index.m3u8
+#EXTINF:-1 tvg-name="Сказки English" group-title="Разное",Сказки English [1280x720]
+https://fs2.persik.by/Skazki_eng/index.m3u8
+#EXTINF:-1 tvg-id="EnglishClass.ru" tvg-logo="https://i.imgur.com/gst7wW7.png" tvg-name="English Club TV" group-title="Разное",English Class [720x576]
+http://188.113.190.15/159/mono.m3u8
+#EXTINF:-1 tvg-id="EnglishClass.ru" tvg-logo="https://i.imgur.com/gst7wW7.png" tvg-name="English Club TV" group-title="Разное",English Class [720x576]
+http://188.113.190.15/159/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="EnglishClass.ru" tvg-logo="https://i.imgur.com/gst7wW7.png" tvg-name="English Club TV" group-title="Разное",English Class [1920x1080]
+http://185.134.38.189:4022/udp/234.0.0.174:2000
+#EXTINF:-1 tvg-id="EnglishClass.ru" tvg-logo="https://i.imgur.com/gst7wW7.png" tvg-name="English Club TV" group-title="Разное",English Class [1920x1080]
+http://185.134.36.25:4022/udp/234.0.0.174:2000
+#EXTINF:-1 tvg-id="EnglishClass.ru" tvg-logo="https://i.imgur.com/gst7wW7.png" tvg-name="English Club TV" group-title="Разное",English Class [1920x1080]
+http://178.163.51.39:4022/udp/234.0.0.174:2000
+#EXTINF:-1 tvg-id="EnglishClass.ru" tvg-logo="https://i.imgur.com/gst7wW7.png" tvg-name="English Club TV" group-title="Разное",English Class [1920x1080]
+http://185.134.36.46:4022/udp/234.0.0.174:2000
+#EXTINF:-1 tvg-id="EnglishClass.ru" tvg-logo="https://i.imgur.com/gst7wW7.png" tvg-name="English Club TV" group-title="Разное",English Class [1920x1080]
+http://178.163.37.154:4022/udp/234.0.0.174:2000
+#EXTINF:-1 tvg-id="EnglishClubTV.uk" tvg-logo="https://i.imgur.com/9FMvaRK.png" tvg-name="English Club TV" group-title="Разное",English Club TV [720x576]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://bkm.beetv.kz/btv/live/hls/000000202.m3u8
+
+#EXTINF:-1 tvg-id="FoodNetwork.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/512px-Food_Network_New_Logo.png" tvg-name="Food Network" group-title="Развлекательный",Food Network [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://83.234.207.29:8006/play/a01n/index.m3u8
+#EXTINF:-1 tvg-id="FoodNetwork.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/512px-Food_Network_New_Logo.png" tvg-name="Food Network" group-title="Развлекательный",Food Network [1280x720]
+http://str05.ottg.app/4922/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Healthy Food" group-title="Разное",Healthy Food [1280x720]
+https://fs2.persik.by/Healthy_Food/index.m3u8
+#EXTINF:-1 tvg-name="Food Network" group-title="Разное",Food Network [854x480]
+http://iptvtree.net:8080/arsimi/96dfec72/148338
+#EXTINF:-1 tvg-id="FoodTime.ru" tvg-logo="https://i.imgur.com/gxCYAwH.png" tvg-name="Еда Премиум" group-title="Разное",Food time [1920x1080]
+http://46.17.46.31:2021/channel/n723486ec/index.m3u8?q=ab97a53c9e9996b0a558e8a6c612c4f8
+
+
+#EXTINF:-1 tvg-name="FlixSnip HD" group-title="Разное",FlixSnip HD [1920x1080]
+http://str05.ottg.app/4690/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="Fox HD" group-title="Разное",Fox HD [1920x1080]
+http://1.1usd.tv:34000/ch103/mono.m3u8?token=1usdtv_lutoev1.uyU08iXuDux6dhdjwmIPVnIcrVeaoNuCrxm1KLjQqPzYf9mwq0nKOex_Ka0tTKQo
+#EXTINF:-1 tvg-name="Fox HD" group-title="Разное",Fox HD [1920x1080]
+http://str05.ottg.app/9764/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Fox HD PREMIUM+" group-title="Разное",Fox HD PREMIUM+ [1920x1080]
+http://str05.ottg.app/9754/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Fox Kids" group-title="Разное",Fox Kids [320x240]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://foxkids-online.ru/hls/test.m3u8
+#EXTINF:-1 tvg-name="Fox Life HD" group-title="Разное",Fox Life HD [1920x1080]
+http://str05.ottg.app/3108/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+
+#EXTINF:-1 tvg-name="Discovery Channel FHD" group-title="Разное",Discovery Channel FHD [1920x1080]
+http://40687-rail.ott-cdn.me/play/live.php?mac=00:1A:79:00:45:05&stream=293326&extension=ts&play_token=6Ly1C19McA
+#EXTINF:-1 tvg-name="Discovery Channel HD" group-title="Разное",Discovery Channel HD [1920x1080]
+http://tr.redatvgold.com/play/live.php?mac=00:1A:79:23:B1:DF&stream=132464&extension=ts&play_token=Wms01m0m38
+#EXTINF:-1 tvg-id="History.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" tvg-name="History" group-title="Познавательный",History [1920x1080]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+http://iptvtree.net:8080/arsimi/96dfec72/80214
+#EXTINF:-1 tvg-id="History.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" tvg-name="History" group-title="Познавательный",History [1920x1080]
+http://str05.ottg.app/2267/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-id="History2.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/512px-History2_logo_%282022%29.svg.png" tvg-name="History 2" group-title="Познавательный",History 2 [1920x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+https://bkm.beetv.kz/btv/live/hls/000002722.m3u8
+#EXTINF:-1 tvg-id="History.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" tvg-name="History [eng rus]" group-title="Познавательный",History [eng rus] [1920x1080]
+http://88.135.128.20:7272/PK41HvJyzlbR8XZ
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="ID" group-title="Познавательный",Investigation Discovery [1920x1080]
+http://158.101.222.193:88/vesti/play.php?channel_id=160
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="ID" group-title="Познавательный",Investigation Discovery [1920x1080]
+http://83.234.207.29:8008/play/a01a/index.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="ID" group-title="Познавательный",Investigation Discovery [1440x1080]
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+http://stream01.vnet.am/InvestigationDiscovery/tracks-v1a2/mono.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="ID" group-title="Познавательный",Investigation Discovery [1920x1080]
+http://91.207.114.209:5000/c150
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="ID" group-title="Познавательный",Investigation Discovery [1920x1080]
+http://193.201.98.10:5000/c150
+#EXTINF:-1 tvg-id="NationalGeographic.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-name="National Geographic" group-title="Познавательный",National Geographic [720x576]
+http://stream02.vnet.am/NationalGeographic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-name="National Geographic" group-title="Познавательный",National Geographic [720x576]
+http://stream02.vnet.am/NationalGeographic/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-name="National Geographic" group-title="Познавательный",National Geographic [720x576]
+https://st1.uzdigital.tv/National_Geographic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-name="National Geographic" group-title="Познавательный",National Geographic [1920x1080]
+https://bkm.beetv.kz/btv/live/hls/000000034.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-name="Nat Geo Wild" group-title="Познавательный",National Geographic Wild [720x576]
+http://stream02.vnet.am/NatGeoWild/mono.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-name="Nat Geo Wild" group-title="Познавательный",National Geographic Wild [720x576]
+http://stream02.vnet.am/NatGeoWild/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-name="Nat Geo Wild" group-title="Познавательный",National Geographic Wild [720x576]
+http://stream02.vnet.am/NatGeoWild/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-name="Nat Geo Wild" group-title="Познавательный",National Geographic Wild [1920x1080]
+http://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-name="Nat Geo Wild" group-title="Познавательный",National Geographic Wild [1920x1080]
+https://st1.uzdigital.tv/Nat_Geo_Wild_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-name="Nat Geo Wild" group-title="Познавательный",National Geographic Wild [1920x1080]
+http://88.135.128.20:7272/CBcyJCMYxKWHlWD
+#EXTINF:-1 tvg-id="NationalGeographicWild.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" tvg-name="Nat Geo Wild" group-title="Познавательный",National Geographic Wild [1920x1080]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+https://bkm.beetv.kz/btv/live/hls/000004474.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/langfr-512px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="ID" group-title="Разное",Investigation Discovery [eng rus] [1440x1080]
+http://stream01.vnet.am/InvestigationDiscovery/mono.m3u8
+
+
+#EXTINF:-1 tvg-name="Liberty BBC HD" group-title="Разное",Liberty BBC HD [1920x1080]
+http://str05.ottg.app/7909/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty DC HD" group-title="Разное",Liberty DC HD [1920x1080]
+http://str05.ottg.app/3021/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Disney HD" group-title="Разное",Liberty Disney HD [1920x1080]
+http://str05.ottg.app/3333/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Fan HD" group-title="Разное",Liberty Fan HD [1920x1080]
+http://str05.ottg.app/2448/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Marvel 4K" group-title="Разное",Liberty Marvel 4K [1920x1080]
+http://str05.ottg.app/9072/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Netflix 4K" group-title="Разное",Liberty Netflix 4K [3840x2160]
+http://str05.ottg.app/5347/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Pixar HD" group-title="Разное",Liberty Pixar HD [1920x1080]
+http://str05.ottg.app/9400/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Аниме HD" group-title="Разное",Liberty Аниме HD [1920x1080]
+http://str05.ottg.app/6972/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Бебимульт HD" group-title="Разное",Liberty Бебимульт HD [1920x1080]
+http://str05.ottg.app/5126/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Боевики HD" group-title="Разное",Liberty Боевики HD [1920x1080]
+http://str05.ottg.app/4628/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Кино ENG 4K" group-title="Разное",Liberty Кино ENG 4K [3840x2160]
+http://str05.ottg.app/3418/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Кино Микс 4K" group-title="Разное",Liberty Кино Микс 4K [3840x2160]
+http://str05.ottg.app/6172/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Комедии HD" group-title="Разное",Liberty Комедии HD [1920x1080]
+http://str05.ottg.app/2056/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Крош HD" group-title="Разное",Liberty Крош HD [1920x1080]
+http://str05.ottg.app/2832/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Куб 4K" group-title="Разное",Liberty Куб 4K [3840x2160]
+http://str05.ottg.app/8143/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Легенда 4K" group-title="Разное",Liberty Легенда 4K [3840x2160]
+http://str05.ottg.app/5513/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Мелодрамы HD" group-title="Разное",Liberty Мелодрамы HD [1920x1080]
+http://str05.ottg.app/5629/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Мим HD" group-title="Разное",Liberty Мим HD [1920x1080]
+http://str05.ottg.app/4487/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Мульт 4K" group-title="Разное",Liberty Мульт 4K [3840x2160]
+http://str05.ottg.app/1696/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Мульт ENG 4K" group-title="Разное",Liberty Мульт ENG 4K [3840x2160]
+http://str05.ottg.app/5793/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Наука HD" group-title="Разное",Liberty Наука HD [1920x1080]
+http://str05.ottg.app/1193/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Планета360 HD" group-title="Разное",Liberty Планета360 HD [1920x1080]
+http://str05.ottg.app/3228/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Планктон" group-title="Разное",Liberty Планктон [1920x1080]
+http://str05.ottg.app/2486/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Семейный 4K" group-title="Разное",Liberty Семейный 4K [3840x2160]
+http://str05.ottg.app/3348/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Сериалы 4K" group-title="Разное",Liberty Сериалы 4K [3840x2160]
+http://str05.ottg.app/6524/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Сказки" group-title="Разное",Liberty Сказки [1920x1080]
+http://str05.ottg.app/6310/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Ужасы 4K" group-title="Разное",Liberty Ужасы 4K [3840x2160]
+http://str05.ottg.app/3214/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty South Park" group-title="Фильмы плюс",Liberty South Park [1920x1080]
+http://str05.ottg.app/1803/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty XX Век" group-title="Фильмы плюс",Liberty XX Век [3840x2160]
+http://str05.ottg.app/4671/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Короткометражный" group-title="Фильмы плюс",Liberty Короткометражный [1920x1080]
+http://str05.ottg.app/7449/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Криминал" group-title="Фильмы плюс",Liberty Криминал [3840x2160]
+http://str05.ottg.app/6935/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Сериалы" group-title="Фильмы плюс",Liberty Сериалы [1920x1080]
+http://str05.ottg.app/9268/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Симпсоны" group-title="Фильмы плюс",Liberty Симпсоны [1920x1080]
+http://str05.ottg.app/4040/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Liberty Триллеры" group-title="Фильмы плюс",Liberty Триллеры [3840x2160]
+http://str05.ottg.app/2300/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="MM Love HD" group-title="Фильмы плюс",MM Love HD
+http://str05.ottg.app/8384/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM NewFilm 1 HD" group-title="Фильмы плюс",MM NewFilm 1 HD [1920x1080]
+http://str05.ottg.app/9582/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM NewFilm 2 HD" group-title="Фильмы плюс",MM NewFilm 2 HD [1920x1080]
+http://str05.ottg.app/2462/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Translation HD" group-title="Фильмы плюс",MM Translation HD [1920x1080]
+http://str05.ottg.app/1186/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Боевик HD" group-title="Фильмы плюс",MM Боевик HD [1920x1080]
+http://str05.ottg.app/2053/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Гриффины HD" group-title="Фильмы плюс",MM Гриффины HD [1920x1080]
+http://str05.ottg.app/5556/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Затмение HD" group-title="Фильмы плюс",MM Затмение HD [1920x1080]
+http://str05.ottg.app/6567/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM История HD" group-title="Фильмы плюс",MM История HD [1920x1080]
+http://str05.ottg.app/2476/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Катастрофа HD" group-title="Фильмы плюс",MM Катастрофа HD [1920x1080]
+http://str05.ottg.app/9725/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Киберпанк HD" group-title="Фильмы плюс",MM Киберпанк HD [1920x1080]
+http://str05.ottg.app/3441/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="MM 007 HD" group-title="Разное",MM 007 HD [1920x1080]
+http://str05.ottg.app/1190/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Experiment HD" group-title="Разное",MM Experiment HD
+http://str05.ottg.app/4968/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Flip UHD" group-title="Разное",MM Flip UHD [3840x2160]
+http://str05.ottg.app/6182/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Honey HD" group-title="Разное",MM Honey HD [1920x1080]
+http://str05.ottg.app/4629/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Lesson HD" group-title="Разное",MM Lesson HD [1920x1080]
+http://str05.ottg.app/7616/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Live Planet HD" group-title="Разное",MM Live Planet HD [1920x1080]
+http://str05.ottg.app/4085/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM NewFilm 3 HD" group-title="Разное",MM NewFilm 3 HD [1920x1080]
+http://str05.ottg.app/3151/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM OldSchool HD" group-title="Разное",MM OldSchool HD [1920x1080]
+http://str05.ottg.app/9976/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Relax HD" group-title="Разное",MM Relax HD [1920x1080]
+http://str05.ottg.app/4153/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Smile HD" group-title="Разное",MM Smile HD [1920x1080]
+http://str05.ottg.app/3788/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Tom and Jerry HD" group-title="Разное",MM Tom and Jerry HD [1920x1080]
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
+http://str05.ottg.app/5857/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM UFO HD" group-title="Разное",MM UFO HD [1920x1080]
+http://str05.ottg.app/4264/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM USSR Мультфильм HD" group-title="Разное",MM USSR Мультфильм HD [1920x1080]
+http://str05.ottg.app/7225/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Walt Disney HD" group-title="Разное",MM Walt Disney HD [1920x1080]
+http://str05.ottg.app/3781/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM World Hits HD" group-title="Разное",MM World Hits HD [1920x1080]
+http://str05.ottg.app/6813/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Комедия Classic HD" group-title="Разное",MM Комедия Classic HD [1920x1080]
+http://str05.ottg.app/4024/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Комедия HD" group-title="Разное",MM Комедия HD [1920x1080]
+http://str05.ottg.app/8038/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Криминал HD" group-title="Разное",MM Криминал HD [1920x1080]
+http://str05.ottg.app/5220/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Кунг-Фу HD" group-title="Разное",MM Кунг-Фу HD [1920x1080]
+http://str05.ottg.app/3715/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Макромир HD" group-title="Разное",MM Макромир HD [1920x1080]
+http://str05.ottg.app/4234/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Мегамир" group-title="Разное",MM Мегамир [1920x1080]
+http://str05.ottg.app/5908/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Микромир HD" group-title="Разное",MM Микромир HD [1920x1080]
+http://str05.ottg.app/2131/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Мифология HD" group-title="Разное",MM Мифология HD [1920x1080]
+http://str05.ottg.app/5157/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Открытия HD" group-title="Разное",MM Открытия HD [1920x1080]
+http://str05.ottg.app/2202/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Погружение HD" group-title="Разное",MM Погружение HD [1920x1080]
+http://str05.ottg.app/7686/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Приключения HD" group-title="Разное",MM Приключения HD [1920x1080]
+http://str05.ottg.app/4596/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Семейный 1 HD" group-title="Разное",MM Семейный 1 HD [1920x1080]
+http://str05.ottg.app/1358/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Семейный 2 HD" group-title="Разное",MM Семейный 2 HD [1920x1080]
+http://str05.ottg.app/2262/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Ситком 2.0 HD" group-title="Разное",MM Ситком 2.0 HD [1920x1080]
+http://str05.ottg.app/6880/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Скорость HD" group-title="Разное",MM Скорость HD [1920x1080]
+http://str05.ottg.app/1581/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Спорт HD" group-title="Разное",MM Спорт HD [1920x1080]
+http://str05.ottg.app/3451/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Стивен Кинг HD" group-title="Разное",MM Стивен Кинг HD [1920x1080]
+http://str05.ottg.app/7848/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Супергерои HD" group-title="Разное",MM Супергерои HD [1920x1080]
+http://str05.ottg.app/1556/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Триллер HD" group-title="Разное",MM Триллер HD [1920x1080]
+http://str05.ottg.app/4829/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Ужастик HD" group-title="Разное",MM Ужастик HD [1920x1080]
+http://str05.ottg.app/4708/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Ужасы HD" group-title="Разное",MM Ужасы HD [1920x1080]
+http://str05.ottg.app/5519/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MM Фантастика HD" group-title="Разное",MM Фантастика HD [1920x1080]
+http://str05.ottg.app/6901/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="MS Animated HD" group-title="Разное",MS Animated HD [1920x1080]
+http://str05.ottg.app/7898/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MS Magic HD" group-title="Разное",MS Magic HD [3840x2160]
+http://str05.ottg.app/6194/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MS Prisons HD" group-title="Разное",MS Prisons HD [1920x1080]
+http://str05.ottg.app/1902/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MS Toons HD" group-title="Разное",MS Toons HD [1920x1080]
+http://str05.ottg.app/6227/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="MS Young Blood HD" group-title="Разное",MS Young Blood HD [1920x1080]
+http://str05.ottg.app/7381/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="Viasat Kino Action HD" group-title="Разное",Viasat Kino Action HD [1920x1080]
+http://str05.ottg.app/3128/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Viasat Kino Comedy HD" group-title="Разное",Viasat Kino Comedy HD [1920x1080]
+http://str05.ottg.app/9994/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Viasat Kino HD" group-title="Разное",Viasat Kino HD [1920x1080]
+http://str05.ottg.app/1975/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Viasat Kino Megahit HD" group-title="Разное",Viasat Kino Megahit HD [1920x1080]
+http://str05.ottg.app/7147/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Viasat Kino World" group-title="Разное",Viasat Kino World [720x576]
+http://str05.ottg.app/9018/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="Viasat Kino World HD PREMIUM+" group-title="Разное",Viasat Kino World HD PREMIUM+ [1920x1080]
+http://str05.ottg.app/6949/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
+
+#EXTINF:-1 tvg-name="MOVIE" group-title="Фильмы плюс",MOVIE [1280x720]
+https://fs2.persik.by/Movie/index.m3u8
+#EXTINF:-1 tvg-name="Фильмы катастрофы" group-title="Фильмы плюс",Фильмы катастрофы [1280x720]
+https://fs2.persik.by/Filmy_katastrofy/index.m3u8
+#EXTINF:-1 tvg-name="Тесты" group-title="Фильмы плюс",Тесты [1280x720]
+https://fs2.persik.by/Tests/index.m3u8
+#EXTINF:-1 tvg-name="Топ кино" group-title="Фильмы плюс",Топ кино [1280x720]
+https://fs2.persik.by/TopKino_2/index.m3u8
+#EXTINF:-1 tvg-name="Триллеры и Боевики" group-title="Фильмы плюс",Триллеры и Боевики [1280x720]
+https://fs2.persik.by/Trillery_Boeviki/index.m3u8
+#EXTINF:-1 tvg-name="Триллеры и Драма" group-title="Фильмы плюс",Триллеры и Драма [1280x720]
+https://fs2.persik.by/Trillery_Drama/index.m3u8
+#EXTINF:-1 tvg-name="Семья" group-title="Фильмы плюс",Семья [1280x720]
+https://fs2.persik.by/Semya_2/index.m3u8
+#EXTINF:-1 tvg-name="Новинки" group-title="Фильмы плюс",Новинки [1280x720]
+https://fs2.persik.by/Novinki2/index.m3u8
+#EXTINF:-1 tvg-name="Новогодние фильмы" group-title="Фильмы плюс",Новогодние фильмы [1280x720]
+https://fs2.persik.by/Novogodnie_Filmy_2/index.m3u8
+#EXTINF:-1 tvg-name="Новые комедии " group-title="Фильмы плюс",Новые комедии  [1280x720]
+https://fs2.persik.by/Novie_Komedii/index.m3u8
+#EXTINF:-1 tvg-name="Популярное кино" group-title="Фильмы плюс",Популярное кино [1280x720]
+https://fs2.persik.by/Populyarnoe_Kino_2/index.m3u8
+#EXTINF:-1 tvg-name="Про родителей" group-title="Фильмы плюс",Про родителей [1280x720]
+https://fs2.persik.by/Pro_roditeley/index.m3u8
+#EXTINF:-1 tvg-name="Психологические ужасы" group-title="Фильмы плюс",Психологические ужасы [1280x720]
+https://fs2.persik.by/Psihologicheskie_uzhasy/index.m3u8
+#EXTINF:-1 tvg-name="Путешествие во времени" group-title="Фильмы плюс",Путешествие во времени [1280x720]
+https://fs2.persik.by/Puteshestvie_vo_vremeni/index.m3u8
+#EXTINF:-1 tvg-name="Рождественские фильмы" group-title="Фильмы плюс",Рождественские фильмы [1280x720]
+https://fs2.persik.by/Rozhdestvenskie_filmy/index.m3u8
+#EXTINF:-1 tvg-name="Романтические фильмы" group-title="Фильмы плюс",Романтические фильмы [1280x720]
+https://fs2.persik.by/Romanticheskie2/index.m3u8
+#EXTINF:-1 tvg-name="Мерзликин" group-title="Фильмы плюс",Мерзликин [1280x720]
+https://fs2.persik.by/Merzlikin2/index.m3u8
+#EXTINF:-1 tvg-name="Любовь и Детективы" group-title="Фильмы плюс",Любовь и Детективы [1280x720]
+https://fs2.persik.by/Lubov_Detektivi/index.m3u8
+#EXTINF:-1 tvg-name="Кино выходного дня" group-title="Фильмы плюс",Кино выходного дня [1280x720]
+https://fs2.persik.by/Kino_vihodnogo_dnia/index.m3u8
+#EXTINF:-1 tvg-name="Кино про дружбу" group-title="Фильмы плюс",Кино про дружбу [1280x720]
+https://fs2.persik.by/Pro_druzhbu/index.m3u8
+#EXTINF:-1 tvg-name="Зарубежное кино" group-title="Фильмы плюс",Зарубежное кино [1280x720]
+https://fs2.persik.by/Zarubezhnoe_kino/index.m3u8
+#EXTINF:-1 tvg-name="Зомби-апокалипсис" group-title="Фильмы плюс",Зомби-апокалипсис [1280x720]
+https://fs2.persik.by/Zombi_apokalipsis/index.m3u8
+#EXTINF:-1 tvg-name="Известные актёры" group-title="Фильмы плюс",Известные актёры [1280x720]
+https://fs2.persik.by/Izvestnie_akteri/index.m3u8
+#EXTINF:-1 tvg-name="История" group-title="Фильмы плюс",История [1280x720]
+https://fs2.persik.by/Istoriya2/index.m3u8
+#EXTINF:-1 tvg-name="В кругу семьи" group-title="Фильмы плюс",В кругу семьи [1280x720]
+https://fs2.persik.by/V_krugu_semii/index.m3u8
+
+
+#EXTINF:-1 tvg-name="Салат" group-title="Разное",Салат [1280x720]
+https://fs2.persik.by/SaladTV/index.m3u8
+#EXTINF:-1 tvg-name="ПП Десерты" group-title="Разное",ПП Десерты [1280x720]
+https://fs2.persik.by/PP_Deserty/index.m3u8
+#EXTINF:-1 tvg-name="Мир фокусов" group-title="Разное",Мир фокусов [1280x720]
+https://fs2.persik.by/Mir_fokusov/index.m3u8
+#EXTINF:-1 tvg-name="Мир технологий" group-title="Разное",Мир технологий [1280x720]
+https://fs2.persik.by/Mir_tehnologij/index.m3u8
+#EXTINF:-1 tvg-name="Мастер-класс" group-title="Разное",Мастер-класс [1280x720]
+https://fs2.persik.by/Master_class/index.m3u8
+#EXTINF:-1 tvg-name="Космос" group-title="Разное",Космос [1280x720]
+https://fs2.persik.by/Kosmos/index.m3u8
+#EXTINF:-1 tvg-name="Зарядись" group-title="Разное",Зарядись [1280x720]
+https://fs2.persik.by/Zaryadistv/index.m3u8
+#EXTINF:-1 tvg-name="Выпечка" group-title="Разное",Выпечка [1280x720]
+https://fs2.persik.by/Vypechka/index.m3u8
+#EXTINF:-1 tvg-name="Best clips" group-title="Разное",Best clips [1280x720]
+https://fs2.persik.by/Best_clips/index.m3u8
 
