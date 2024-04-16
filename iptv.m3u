@@ -1077,8 +1077,6 @@ http://str05.ottg.app/8010/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/9944/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Survival" group-title="Фильмы плюс",BCU Survival [1920x1080]
 http://str05.ottg.app/6035/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BCU TruMotion" group-title="Фильмы плюс",BCU TruMotion [1920x1080]
-http://str05.ottg.app/8885/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Ultra" group-title="Фильмы плюс",BCU Ultra [3840x2160]
 http://str05.ottg.app/3906/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU VHS" group-title="Фильмы плюс",BCU VHS [1920x1080]
