@@ -1,10 +1,6 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, http://epg.one/epg2.xml.gz" tvg-shift="+3" abs="true" 
 
 
-#EXTINF:-1 tvg-logo="http://telik.live/images/real-madrid-tv.png" group-title="Спорт", Real Madrid TV
-https://stream.ads.ottera.tv/cl/240403co6gkk03t0mhdi4ef4n0/1920x1080_5701132_5_f.m3u8?i=475_1545
-
-
 #EXTINF:-1 tvg-logo="https://cdn-icons-png.flaticon.com/128/2435/2435591.png" group-title="Камин", Камин
 https://evgeny-dmitrievich.github.io/iptv/Камин.m3u
 
@@ -15,6 +11,7 @@ https://evgeny-dmitrievich.github.io/iptv/Концерт BTS.m3u
 
 #EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
 https://evgeny-dmitrievich.github.io/iptv/Tom_and_Jerry.m3u
+
 
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://epgx.site/p/vip-comedy.png" group-title="Кинозал",Viju+ Comedy (EDTV 576p)
 https://edge01-alm.beetv.kz/bpk-token/2an@1agqvw3eyaw0g2ioc3tlzmaln1gqbmvn1oklcmba/btv/SWM/vip_comedy_hd/vip_comedy_hd.m3u8
@@ -238,31 +235,6 @@ http://91.205.199.3/tv1000action/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action" tvg-logo="https://epgx.site/p/tv1000-action.png" group-title="Кинозал",Viju TV1000 Action (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000003910.m3u8
 
-
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epgx.site/p/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV 576p)
-http://83.234.207.29:8011/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epgx.site/p/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV 576p)
-https://bkm.beetv.kz/btv/live/hls/000003748.m3u8
-#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Русский кинозал",НТВ Хит (EDTV 576p)
-https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал", Смотрим
-https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/tracks-v3a1/mono.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал",НТВ Сериал (EDTV 576p)
-https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
-#EXTINF:-1 tvg-id="rodnoe-kino" tvg-logo="https://epgx.site/p/rodnoe-kino.png" group-title="Русский кинозал" user-agent="ExoPlayer2/2.37",Родное кино (SDTV 576i)
-https://strm.yandex.ru/kal/rodnoe_kino_belarus/rodnoe_kino_belarus0.m3u8
-#EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://epgx.site/p/russky-bestseller.png" group-title="Русский кинозал",Русский бестселлер (EDTV 576p)
-http://91.142.158.107:8092/play/26/index.m3u8
-#EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://epgx.site/p/russky-detektiv.png" group-title="Русский кинозал",Русский детектив (EDTV 576p)
-http://91.142.158.107:8092/play/27/index.m3u8
-#EXTINF:-1 tvg-id="russky-illuzion" tvg-logo="https://epgx.site/p/russky-illuzion.png" group-title="Русский кинозал",Русский иллюзион (EDTV 576p)
-http://195.191.130.11:9000/play/a00u/index.m3u8
-#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epgx.site/p/russky-roman.png" group-title="Русский кинозал",Русский роман (EDTV 576p)
-http://91.142.158.107:8092/play/25/index.m3u8
-#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epgx.site/p/russky-roman.png" group-title="Русский кинозал",Русский роман (EDTV 576p)
-http://188.113.190.15/221/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://epgx.site/p/mosfilm.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция (EDTV 576p)
-http://otv.wotom.net:4433/udp/238.1.1.100:1234
 
 
 #EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (HD)
