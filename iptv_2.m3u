@@ -151,7 +151,7 @@ http://str05.ottg.app/9042/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/8301/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Mayday HD" group-title="Фильмы плюс",BOX Mayday HD [1920x1080]
 http://str05.ottg.app/2403/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BOX Music 4K" group-title="Фильмы плюс",BOX Music 4K [3840x2160]
+#EXTINF:-1 tvg-name="BOX Music 4K" group-title="Музыкальные",BOX Music 4K [3840x2160]
 http://str05.ottg.app/3824/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Oscar HD" group-title="Фильмы плюс",BOX Oscar HD [1920x1080]
 http://str05.ottg.app/5242/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
