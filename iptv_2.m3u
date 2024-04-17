@@ -84,7 +84,9 @@ http://str05.ottg.app/1086/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Cinema+" group-title="Фильмы плюс",BCU Cinema+ [1920x1080]
 http://str05.ottg.app/6536/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Comedy" group-title="Фильмы плюс",BCU Comedy [1920x1080]
-http://str05.ottg.app/2718/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+http://str05.ottg.app/6571/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Comedy" group-title="Фильмы плюс",BCU Comedy [1920x1080]
+#http://str05.ottg.app/2718/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Cosmo" group-title="Фильмы плюс",BCU Cosmo [1920x1080]
 http://str05.ottg.app/3559/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Criminal" group-title="Фильмы плюс",BCU Criminal [1920x1080]
@@ -98,7 +100,9 @@ http://str05.ottg.app/8129/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Kinorating" group-title="Фильмы плюс",BCU Kinorating [1920x1080]
 http://str05.ottg.app/2071/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Marvel" group-title="Фильмы плюс",BCU Marvel [1920x1080]
-http://str05.ottg.app/1740/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+http://str05.ottg.app/5671/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BCU Marvel" group-title="Фильмы плюс",BCU Marvel [1920x1080]
+#http://str05.ottg.app/1740/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Premiere Ultra" group-title="Фильмы плюс",BCU Premiere Ultra [3840x2160]
 http://str05.ottg.app/3408/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Reality" group-title="Фильмы плюс",BCU Reality [1920x1080]
