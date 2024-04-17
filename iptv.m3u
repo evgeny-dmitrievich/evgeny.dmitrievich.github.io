@@ -227,7 +227,7 @@ https://strm.yandex.ru/kal/tv_21_belarus/tv_21_belarus0.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #EXTINF:-1 group-title="Кинозал", VHS-ка
 http://strm.yandex.ru/kal/vhs_ka/vhs_ka0.m3u8
-#EXTINF:-1 group-title="Кинозал", Viasat Kino Comedy
+#EXTINF:-1 tvg-name="Viasat Kino Comedy HD" group-title="Фильмы плюс",Viasat Kino Comedy HD [1920x1080]
 http://88.135.128.20:7272/5RqMvVnGzdoBQbf
 #EXTINF:-1 tvg-id="tv1000" tvg-logo="https://epgx.site/p/tv1000.png" group-title="Кинозал",Viju TV1000 (EDTV 576p)
 http://91.205.199.3/tv1000/index.m3u8
