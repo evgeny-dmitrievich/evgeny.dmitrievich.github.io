@@ -227,7 +227,7 @@ http://str05.ottg.app/2834/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/6248/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K Фэнтези" group-title="Фильмы плюс",Clarity4K Фэнтези [3840x2160]
 http://str05.ottg.app/8818/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Clarity4К Города" group-title="Фильмы плюс",Clarity4К Города [3840x2026]
+#EXTINF:-1 tvg-logo="https://epgx.site/p/clarity4k-relaxkamin.png" tvg-id="clarity4k-relaxkamin" tvg-name="Clarity4К Города" group-title="Фильмы плюс",Clarity4К Города [3840x2026]
 http://str05.ottg.app/2531/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 
 
@@ -477,7 +477,7 @@ http://str05.ottg.app/5220/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/3715/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Макромир HD" group-title="Фильмы плюс",MM Макромир HD [1920x1080]
 http://str05.ottg.app/4234/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Мегамир HD" group-title="Фильмы плюс",MM Мегамир HD [1920x1080]
+#EXTINF:-1 tvg-logo="https://epgx.site/p/minimax-megamir.png" tvg-id="minimax-megamir" tvg-name="MM Мегамир HD" group-title="Фильмы плюс",MM Мегамир HD [1920x1080]
 http://str05.ottg.app/5908/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Микромир HD" group-title="Фильмы плюс",MM Микромир HD [1920x1080]
 http://str05.ottg.app/2131/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
