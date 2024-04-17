@@ -239,9 +239,9 @@ http://hls.goodgame.ru:8080/hls/187241.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Учим English" tvg-logo="https://w7.pngwing.com/pngs/570/354/png-transparent-learning-english-grammar-english-language-learner-teacher-teacher-light-fixture-child-english-thumbnail.png" group-title="Фильмы плюс",Учим English[1280x720]
+#EXTINF:-1 tvg-name="Учим English" tvg-logo="https://logodix.com/logo/393924.jpg" group-title="Фильмы плюс",Учим English[1280x720]
 https://fs2.persik.by/Uchim_English/index.m3u8
-#EXTINF:-1 tvg-name="Сказки English" tvg-logo="https://img.lovepik.com/free_png/32/35/61/90558PICQ26ReHCZe5h4c_PIC2018.png_860.png" group-title="Фильмы плюс",Сказки English [1280x720]
+#EXTINF:-1 tvg-name="Сказки English" tvg-logo="https://logodix.com/logo/393906.png" group-title="Фильмы плюс",Сказки English [1280x720]
 https://fs2.persik.by/Skazki_eng/index.m3u8
 #EXTINF:-1 group-title="Познавательные", English Class
 http://188.113.190.15/159/mono.m3u8
