@@ -165,6 +165,8 @@ http://str05.ottg.app/7637/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/6496/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Remast+ 4K" group-title="Фильмы плюс",BOX Remast+ 4K [3840x2160]
 http://str05.ottg.app/8327/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+#EXTINF:-1 tvg-name="BOX Remast 4K" group-title="Фильмы плюс",BOX Remast 4K [3840x2160]
+http://str05.ottg.app/2866/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-id="box-serial4k" group-title="Фильмы плюс",BOX Serial 4K [3840x2160]
 http://str05.ottg.app/6044/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Serial HD" group-title="Фильмы плюс",BOX Serial HD [1920x1080]
