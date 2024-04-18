@@ -1,6 +1,7 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
 
 
+
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://epgx.site/p/sony-turbo.png" group-title="Кинозал",.black (EDTV 576p)
 http://40687-rail.ott-cdn.me/play/live.php?mac=00:1A:79:a8:41:80&stream=293507&extension=ts&play_token=eUHY5qVTnC
 #EXTINF:-1 tvg-id="sony-tv" tvg-logo="https://epgx.site/p/sony.png" group-title="Кинозал",.red (EDTV 576p)
