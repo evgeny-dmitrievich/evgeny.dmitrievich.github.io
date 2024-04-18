@@ -86,7 +86,7 @@ http://str05.ottg.app/6536/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Comedy" group-title="Фильмы плюс",BCU Comedy [1920x1080]
 http://str05.ottg.app/6571/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Comedy" group-title="Фильмы плюс",BCU Comedy [1920x1080]
-#http://str05.ottg.app/2718/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+-#http://str05.ottg.app/2718/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Cosmo" group-title="Фильмы плюс",BCU Cosmo [1920x1080]
 http://str05.ottg.app/3559/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Criminal" group-title="Фильмы плюс",BCU Criminal [1920x1080]
@@ -102,7 +102,7 @@ http://str05.ottg.app/2071/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Marvel" group-title="Фильмы плюс",BCU Marvel [1920x1080]
 http://str05.ottg.app/5671/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Marvel" group-title="Фильмы плюс",BCU Marvel [1920x1080]
-#http://str05.ottg.app/1740/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+-#http://str05.ottg.app/1740/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Premiere Ultra" group-title="Фильмы плюс",BCU Premiere Ultra [3840x2160]
 http://str05.ottg.app/3408/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Reality" group-title="Фильмы плюс",BCU Reality [1920x1080]
@@ -124,8 +124,6 @@ http://str05.ottg.app/8585/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/6996/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Kids+" group-title="Фильмы плюс",BCU Kids+ [1920x1080]
 http://str05.ottg.app/6398/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BCU Little" group-title="Детские",BCU Little [1920x1080]
-http://str05.ottg.app/7994/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BCU Мультсериал" group-title="Фильмы плюс",BCU Мультсериал [1920x1080]
 http://str05.ottg.app/8590/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 
@@ -151,7 +149,7 @@ http://str05.ottg.app/2824/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/9042/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX M.Serial HD" group-title="Фильмы плюс",BOX M.Serial HD [1920x1080]
 http://str05.ottg.app/8301/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BOX Mayday HD" group-title="Фильмы плюс",BOX Mayday HD [1920x1080]
+#EXTINF:-1 tvg-name="BOX Mayday HD" group-title="Позновательные",BOX Mayday HD [1920x1080]
 http://str05.ottg.app/2403/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Music 4K" group-title="Музыкальные",BOX Music 4K [3840x2160]
 http://str05.ottg.app/3824/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
@@ -161,19 +159,17 @@ http://str05.ottg.app/5242/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/7637/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Remast+ 4K" group-title="Фильмы плюс",BOX Remast+ 4K [3840x2160]
 http://str05.ottg.app/8327/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BOX Remast 4K" group-title="Фильмы плюс",BOX Remast 4K [3840x2160]
-http://str05.ottg.app/2866/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-id="box-serial4k" group-title="Фильмы плюс",BOX Serial 4K [3840x2160]
 http://str05.ottg.app/6044/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BOX Serial HD" group-title="Фильмы плюс",BOX Serial HD [1920x1080]
+#EXTINF:-1 tvg-name="BOX Serial_HD" group-title="Фильмы плюс",BOX Serial_HD [1920x1080]
 http://str05.ottg.app/1092/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Zombie HD" group-title="Фильмы плюс",BOX Zombie HD [1920x1080]
 http://str05.ottg.app/1023/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="BOX Spy HD" group-title="Фильмы плюс",BOX Spy HD [1920x1080]
 http://str05.ottg.app/2591/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BOX Stories HD" group-title="Фильмы плюс",BOX Stories HD [1920x1080]
+#EXTINF:-1 tvg-name="BOX Stories HD" group-title="Позновательные",BOX Stories HD [1920x1080]
 http://str05.ottg.app/3282/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="BOX Travel HD" group-title="Фильмы плюс",BOX Travel HD [1920x1080]
+#EXTINF:-1 tvg-name="BOX Travel HD" group-title="Позновательные",BOX Travel HD [1920x1080]
 http://str05.ottg.app/5675/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 
 
@@ -202,14 +198,12 @@ http://str05.ottg.app/2195/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-id="" tvg-name="Clarity4K Walt Disney" group-title="Фильмы плюс",Clarity4K Walt Disney [3840x2160]
 http://str05.ottg.app/2860/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K Боевик" group-title="Фильмы плюс",Clarity4K Боевик [3840x2160]
-http://str05.ottg.app/2272/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+-#http://str05.ottg.app/2272/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K КиноНовинки" group-title="Фильмы плюс",Clarity4K КиноНовинки [3840x2160]
 http://str05.ottg.app/2870/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K КиноФраншизы" group-title="Фильмы плюс",Clarity4K КиноФраншизы [3840x2160]
 http://str05.ottg.app/7139/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-id="clarity4k-komedia" tvg-name="Clarity4K Комедия" group-title="Фильмы плюс",Clarity4K Комедия [3840x2160]
-http://str05.ottg.app/1709/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Clarity4K Космомир" group-title="Фильмы плюс",Clarity4K Космомир [3840x2160]
+#EXTINF:-1 tvg-name="Clarity4K Космомир" group-title="Позновательные",Clarity4K Космомир [3840x2160]
 http://str05.ottg.app/7478/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K Мультимир" group-title="Фильмы плюс",Clarity4K Мультимир [3840x2160]
 http://str05.ottg.app/8783/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
@@ -217,16 +211,12 @@ http://str05.ottg.app/8783/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/7996/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K Путешествие" group-title="Фильмы плюс",Clarity4K Путешествие [3840x2160]
 http://str05.ottg.app/2792/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-id="clarity4k-semejny" tvg-name="Clarity4K Семейный" group-title="Фильмы плюс",Clarity4K Семейный [3840x2160]
-http://str05.ottg.app/4675/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K Сумеречный Эфир" group-title="Фильмы плюс",Clarity4K Сумеречный Эфир [3840x2160]
 http://str05.ottg.app/2834/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K Фантастика" group-title="Фильмы плюс",Clarity4K Фантастика [3840x2160]
 http://str05.ottg.app/6248/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Clarity4K Фэнтези" group-title="Фильмы плюс",Clarity4K Фэнтези [3840x2160]
 http://str05.ottg.app/8818/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-logo="https://epgx.site/p/clarity4k-relaxkamin.png" tvg-id="clarity4k-relaxkamin" tvg-name="Clarity4К Города" group-title="Фильмы плюс",Clarity4К Города [3840x2026]
-http://str05.ottg.app/2531/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 
 
 
@@ -359,18 +349,12 @@ http://str05.ottg.app/5347/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/9400/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Аниме HD" group-title="Фильмы плюс",Liberty Аниме HD [1920x1080]
 http://str05.ottg.app/6972/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Бебимульт HD" group-title="Фильмы плюс",Liberty Бебимульт HD [1920x1080]
-http://str05.ottg.app/5126/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Боевики HD" group-title="Фильмы плюс",Liberty Боевики HD [1920x1080]
 http://str05.ottg.app/4628/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Кино ENG 4K" group-title="Фильмы плюс",Liberty Кино ENG 4K [3840x2160]
-http://str05.ottg.app/3418/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Кино Микс 4K" group-title="Фильмы плюс",Liberty Кино Микс 4K [3840x2160]
 http://str05.ottg.app/6172/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Комедии HD" group-title="Фильмы плюс",Liberty Комедии HD [1920x1080]
 http://str05.ottg.app/2056/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Крош HD" group-title="Фильмы плюс",Liberty Крош HD [1920x1080]
-http://str05.ottg.app/2832/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Куб 4K" group-title="Фильмы плюс",Liberty Куб 4K [3840x2160]
 http://str05.ottg.app/8143/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Легенда 4K" group-title="Фильмы плюс",Liberty Легенда 4K [3840x2160]
@@ -381,11 +365,9 @@ http://str05.ottg.app/5629/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/4487/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Мульт 4K" group-title="Фильмы плюс",Liberty Мульт 4K [3840x2160]
 http://str05.ottg.app/1696/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Мульт ENG 4K" group-title="Фильмы плюс",Liberty Мульт ENG 4K [3840x2160]
-http://str05.ottg.app/5793/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Наука HD" group-title="Фильмы плюс",Liberty Наука HD [1920x1080]
+#EXTINF:-1 tvg-name="Liberty Наука HD" group-title="Позновательные",Liberty Наука HD [1920x1080]
 http://str05.ottg.app/1193/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Планета360 HD" group-title="Фильмы плюс",Liberty Планета360 HD [1920x1080]
+#EXTINF:-1 tvg-name="Liberty Планета360 HD" group-title="Позновательные",Liberty Планета360 HD [1920x1080]
 http://str05.ottg.app/3228/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Планктон" group-title="Фильмы плюс",Liberty Планктон [1920x1080]
 http://str05.ottg.app/2486/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
@@ -393,24 +375,17 @@ http://str05.ottg.app/2486/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/3348/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Сериалы 4K" group-title="Фильмы плюс",Liberty Сериалы 4K [3840x2160]
 http://str05.ottg.app/6524/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Сказки" group-title="Фильмы плюс",Liberty Сказки [1920x1080]
-http://str05.ottg.app/6310/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Ужасы 4K" group-title="Фильмы плюс",Liberty Ужасы 4K [3840x2160]
-http://str05.ottg.app/3214/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty South Park" group-title="Фильмы плюс",Liberty South Park [1920x1080]
 http://str05.ottg.app/1803/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty XX Век" group-title="Фильмы плюс",Liberty XX Век [3840x2160]
 http://str05.ottg.app/4671/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Короткометражный" group-title="Фильмы плюс",Liberty Короткометражный [1920x1080]
-http://str05.ottg.app/7449/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Криминал" group-title="Фильмы плюс",Liberty Криминал [3840x2160]
 http://str05.ottg.app/6935/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Сериалы" group-title="Фильмы плюс",Liberty Сериалы [1920x1080]
 http://str05.ottg.app/9268/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="Liberty Симпсоны" group-title="Фильмы плюс",Liberty Симпсоны [1920x1080]
 http://str05.ottg.app/4040/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="Liberty Триллеры" group-title="Фильмы плюс",Liberty Триллеры [3840x2160]
-http://str05.ottg.app/2300/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
+
 
 
 
@@ -440,18 +415,10 @@ http://str05.ottg.app/1190/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/4968/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Flip UHD" group-title="Фильмы плюс",MM Flip UHD [3840x2160]
 http://str05.ottg.app/6182/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Honey HD" group-title="Фильмы плюс",MM Honey HD [1920x1080]
-http://str05.ottg.app/4629/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Lesson HD" group-title="Фильмы плюс",MM Lesson HD [1920x1080]
-http://str05.ottg.app/7616/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Live Planet HD" group-title="Фильмы плюс",MM Live Planet HD [1920x1080]
 http://str05.ottg.app/4085/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM NewFilm 3 HD" group-title="Фильмы плюс",MM NewFilm 3 HD [1920x1080]
 http://str05.ottg.app/3151/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM OldSchool HD" group-title="Фильмы плюс",MM OldSchool HD [1920x1080]
-http://str05.ottg.app/9976/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-id="" tvg-name="MM Relax HD" group-title="Фильмы плюс",MM Relax HD [1920x1080]
-http://str05.ottg.app/4153/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Smile HD" group-title="Фильмы плюс",MM Smile HD [1920x1080]
 http://str05.ottg.app/3788/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Tom and Jerry HD" group-title="Фильмы плюс",MM Tom and Jerry HD [1920x1080]
@@ -465,23 +432,21 @@ http://str05.ottg.app/7225/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/3781/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM World Hits HD" group-title="Музыкальные",MM World Hits HD [1920x1080]
 http://str05.ottg.app/6813/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Комедия Classic HD" group-title="Фильмы плюс",MM Комедия Classic HD [1920x1080]
-http://str05.ottg.app/4024/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Комедия HD" group-title="Фильмы плюс",MM Комедия HD [1920x1080]
 http://str05.ottg.app/8038/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Криминал HD" group-title="Фильмы плюс",MM Криминал HD [1920x1080]
 http://str05.ottg.app/5220/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Кунг-Фу HD" group-title="Фильмы плюс",MM Кунг-Фу HD [1920x1080]
 http://str05.ottg.app/3715/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Макромир HD" group-title="Фильмы плюс",MM Макромир HD [1920x1080]
+#EXTINF:-1 tvg-name="MM Макромир HD" group-title="Позновательные",MM Макромир HD [1920x1080]
 http://str05.ottg.app/4234/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-logo="https://epgx.site/p/minimax-megamir.png" tvg-id="minimax-megamir" tvg-name="MM Мегамир HD" group-title="Фильмы плюс",MM Мегамир HD [1920x1080]
+#EXTINF:-1 tvg-logo="https://epgx.site/p/minimax-megamir.png" tvg-id="minimax-megamir" tvg-name="MM Мегамир HD" group-title="Позновательные",MM Мегамир HD [1920x1080]
 http://str05.ottg.app/5908/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Микромир HD" group-title="Фильмы плюс",MM Микромир HD [1920x1080]
+#EXTINF:-1 tvg-name="MM Микромир HD" group-title="Позновательные",MM Микромир HD [1920x1080]
 http://str05.ottg.app/2131/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Мифология HD" group-title="Фильмы плюс",MM Мифология HD [1920x1080]
 http://str05.ottg.app/5157/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Открытия HD" group-title="Фильмы плюс",MM Открытия HD [1920x1080]
+#EXTINF:-1 tvg-name="MM Открытия HD" group-title="Позновательные",MM Открытия HD [1920x1080]
 http://str05.ottg.app/2202/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Погружение HD" group-title="Фильмы плюс",MM Погружение HD [1920x1080]
 http://str05.ottg.app/7686/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
@@ -499,12 +464,8 @@ http://str05.ottg.app/3451/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/7848/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Супергерои HD" group-title="Фильмы плюс",MM Супергерои HD [1920x1080]
 http://str05.ottg.app/1556/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Триллер HD" group-title="Фильмы плюс",MM Триллер HD [1920x1080]
-http://str05.ottg.app/4829/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Ужастик HD" group-title="Фильмы плюс",MM Ужастик HD [1920x1080]
 http://str05.ottg.app/4708/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MM Ужасы HD" group-title="Фильмы плюс",MM Ужасы HD [1920x1080]
-http://str05.ottg.app/5519/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MM Фантастика HD" group-title="Фильмы плюс",MM Фантастика HD [1920x1080]
 http://str05.ottg.app/6901/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 
@@ -514,8 +475,6 @@ http://str05.ottg.app/6901/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 http://str05.ottg.app/7898/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MS Magic HD" group-title="Фильмы плюс",MS Magic HD [3840x2160]
 http://str05.ottg.app/6194/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
-#EXTINF:-1 tvg-name="MS Prisons HD" group-title="Фильмы плюс",MS Prisons HD [1920x1080]
-http://str05.ottg.app/1902/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MS Toons HD" group-title="Фильмы плюс",MS Toons HD [1920x1080]
 http://str05.ottg.app/6227/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 #EXTINF:-1 tvg-name="MS Young Blood HD" group-title="Фильмы плюс",MS Young Blood HD [1920x1080]
