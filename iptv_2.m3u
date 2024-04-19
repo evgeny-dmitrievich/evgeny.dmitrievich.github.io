@@ -67,14 +67,6 @@ http://92.242.110.52:9835/udp/238.1.5.3:1234
 
 
 
-#EXTINF:-1 tvg-name="4FUN" group-title="Музыкальные",4FUN
-https://cdn-notpub-london.lolokoko.tv/4funtv.stream/chunks.m3u8
-#EXTINF:-1 tvg-name="4FUN" group-title="Музыкальные",4FUN
-https://stream.4fun.tv:8888/hls/4f.m3u8
-#EXTINF:-1 tvg-name="4Fun Dance" group-title="Музыкальные",4Fun Dance
-https://cdn-notpub-london.lolokoko.tv/4fundance.stream/chunks.m3u8
-
-
 
 #EXTINF:-1 tvg-name="BCU Action" group-title="Фильмы плюс",BCU Action [1920x1080]
 http://str05.ottg.app/7255/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
@@ -221,17 +213,11 @@ http://str05.ottg.app/8818/video.m3u8?token=8f14466a3a13d535cd2a207a9643a6c3
 
 
 
-#EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозал",Фантастика (HD)
-http://215602c2.kazaktelekom.com/iptv/D72CVTDTWM4NGY/11070/index.m3u8
-#EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозал",Фантастика (HD)
-http://hls.goodgame.ru:8080/hls/187241.m3u8
 
 
 
-#EXTINF:-1 tvg-name="Учим English" tvg-logo="https://avatars.mds.yandex.net/i?id=8a3c316a4cea16e64804a9eb423a4097c51871c4-10385245-images-thumbs&n=13" group-title="Познавательные",Учим English[1280x720]
-https://fs2.persik.by/Uchim_English/index.m3u8
-#EXTINF:-1 tvg-name="Сказки English" tvg-logo="https://avatars.mds.yandex.net/i?id=0c76ab2917ecedbf230fc5ff6f03b30f05e77a98-9705232-images-thumbs&n=13" group-title="Познавательные",Сказки English [1280x720]
-https://fs2.persik.by/Skazki_eng/index.m3u8
+
+
 #EXTINF:-1 group-title="Познавательные", English Class
 http://188.113.190.15/159/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", English Class
