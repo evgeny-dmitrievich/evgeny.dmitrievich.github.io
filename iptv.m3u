@@ -9,7 +9,7 @@ https://evgeny-dmitrievich.github.io/iptv/Камин.m3u
 https://evgeny-dmitrievich.github.io/iptv/Концерт BTS.m3u
 
 
-#EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Кинозал", Tom & Jerry
+#EXTINF:-1 tvg-logo="http://telik.live/images/tom_and_jerry.png" group-title="Tom & Jerry", Tom & Jerry
 https://evgeny-dmitrievich.github.io/iptv/Tom_and_Jerry.m3u
 
 
@@ -19,60 +19,8 @@ https://cdn-notpub-london.lolokoko.tv/4funtv.stream/chunks.m3u8
 https://stream.4fun.tv:8888/hls/4f.m3u8
 #EXTINF:-1 tvg-name="4Fun Dance" group-title="Музыкальные",4Fun Dance
 https://cdn-notpub-london.lolokoko.tv/4fundance.stream/chunks.m3u8
-
-
-#EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозал",Фантастика (HD)
-http://215602c2.kazaktelekom.com/iptv/D72CVTDTWM4NGY/11070/index.m3u8
-#EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозал",Фантастика (HD)
-http://hls.goodgame.ru:8080/hls/187241.m3u8
-#EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозал",Фантастика (HD)
-http://195.9.195.3:8080/hls/187241.m3u8
-
-
-#EXTINF:-1 tvg-name="Учим English" tvg-logo="https://avatars.mds.yandex.net/i?id=8a3c316a4cea16e64804a9eb423a4097c51871c4-10385245-images-thumbs&n=13" group-title="Познавательные",Учим English[1280x720]
-https://fs2.persik.by/Uchim_English/index.m3u8
-#EXTINF:-1 tvg-name="Сказки English" tvg-logo="https://avatars.mds.yandex.net/i?id=0c76ab2917ecedbf230fc5ff6f03b30f05e77a98-9705232-images-thumbs&n=13" group-title="Познавательные",Сказки English [1280x720]
-https://fs2.persik.by/Skazki_eng/index.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://epgx.site/p/kanal-2-ee.png" tvg-name="Тесты" group-title="Познавательные",Тесты [1280x720]
-https://fs2.persik.by/Tests/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/stb-ua.png" tvg-name="Салат" group-title="Хобби и увлечения",Салат [1280x720]
-https://fs2.persik.by/SaladTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/c-history.png" tvg-name="ПП Десерты" group-title="Хобби и увлечения",ПП Десерты [1280x720]
-https://fs2.persik.by/PP_Deserty/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/star-tv-hd-tr.png" tvg-name="Мир фокусов" group-title="Хобби и увлечения",Мир фокусов [1280x720]
-https://fs2.persik.by/Mir_fokusov/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/kriminalnoe-hd.png" tvg-name="Мир технологий" group-title="Познавательные",Мир технологий [1280x720]
-https://fs2.persik.by/Mir_tehnologij/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/tv-brics.png" tvg-name="Мастер-класс" group-title="Хобби и увлечения",Мастер-класс [1280x720]
-https://fs2.persik.by/Master_class/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/sol.png" tvg-name="Выпечка" group-title="Хобби и увлечения",Выпечка [1280x720]
-https://fs2.persik.by/Vypechka/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/eu-music.png" tvg-name="Best clips" group-title="Музыкальные",Best clips [1280x720]
+#EXTINF:-1 tvg-logo="https://epgx.site/p/4ever-music.png" tvg-name="Best clips" group-title="Музыкальные",Best clips [1280x720]
 https://fs2.persik.by/Best_clips/index.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://img.redbull.com/images/w_250/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv" group-title="Развлекательные", Red Bull TV HD
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-
-
-
-#EXTINF:-1 group-title="Хобби и увлечения", Еда Премиум Международный HD
-https://strm.yandex.ru/kal/eda_premium_int_belarus/eda_premium_int_belarus0.m3u8
-#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://epgx.site/p/zagorodnaya-zhizn.png" group-title="Хобби и увлечения",Загородная Жизнь (EDTV 576p)
-https://strm.yandex.ru/kal/zagorodnaia_zhizn_belarus/zagorodnaia_zhizn_belarus0.m3u8
-#EXTINF:-1 tvg-id="kuxnia-tv" tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Хобби и увлечения",Кухня ТВ (EDTV 576p)
-http://188.113.190.15/314/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" _"e-tv", E TV
-http://92.242.110.52:9835/udp/238.1.7.5:1234
-#EXTINF:-1 group-title="Хобби и увлечения" _"e-tv", E TV
-http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="tlc" group-title="Хобби и увлечения",TLC 
-https://bkm.beetv.kz/btv/live/hls/000001498.m3u8  
-
-
-
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
 http://188.113.190.15/137/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
@@ -113,7 +61,6 @@ http://de1se01.v2beat.live/playlist.m3u8
 https://abr.de1se01.v2beat.live/live/live6/chunks.m3u8
 #EXTINF:-1 _"V2BEATTV.uk" tvg-logo="https://i.imgur.com/PXGqyLn.png" ...="V2BEAT TV" group-title="Музыкальные",V2BEAT TV [1280x720]
 https://abr.de1se01.v2beat.live/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/kronehit-tv.webp" group-title="Музыкальные", Kronehit
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/nrj-hits-tv.webp" group-title="Музыкальные", NRJ Hits
@@ -142,3 +89,42 @@ http://89.248.160.57/iptv/HQHRS8LV5V8HZL/14154/index.m3u8
 #EXTINF:-1 group-title="Музыкальные", Baby Time 
 http://strm.yandex.ru/kal/baby_time/baby_time0.m3u8
 
+
+#EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозалы",Фантастика (HD)
+http://hls.goodgame.ru:8080/hls/187241.m3u8
+#EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозалы",Фантастика (HD)
+http://195.9.195.3:8080/hls/187241.m3u8
+
+
+#EXTINF:-1 tvg-name="Учим English" tvg-logo="https://avatars.mds.yandex.net/i?id=8a3c316a4cea16e64804a9eb423a4097c51871c4-10385245-images-thumbs&n=13" group-title="Познавательные",Учим English[1280x720]
+https://fs2.persik.by/Uchim_English/index.m3u8
+#EXTINF:-1 tvg-name="Сказки English" tvg-logo="https://avatars.mds.yandex.net/i?id=0c76ab2917ecedbf230fc5ff6f03b30f05e77a98-9705232-images-thumbs&n=13" group-title="Познавательные",Сказки English [1280x720]
+https://fs2.persik.by/Skazki_eng/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/kanal-2-ee.png" tvg-name="Тесты" group-title="Познавательные",Тесты [1280x720]
+https://fs2.persik.by/Tests/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/stb-ua.png" tvg-name="Салат" group-title="Познавательные",Салат [1280x720]
+https://fs2.persik.by/SaladTV/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/c-history.png" tvg-name="ПП Десерты" group-title="Познавательные",ПП Десерты [1280x720]
+https://fs2.persik.by/PP_Deserty/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/star-tv-hd-tr.png" tvg-name="Мир фокусов" group-title="Познавательные",Мир фокусов [1280x720]
+https://fs2.persik.by/Mir_fokusov/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/kriminalnoe-hd.png" tvg-name="Мир технологий" group-title="Познавательные",Мир технологий [1280x720]
+https://fs2.persik.by/Mir_tehnologij/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/tv-brics.png" tvg-name="Мастер-класс" group-title="Познавательные",Мастер-класс [1280x720]
+https://fs2.persik.by/Master_class/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/sol.png" tvg-name="Выпечка" group-title="Познавательные",Выпечка [1280x720]
+https://fs2.persik.by/Vypechka/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Еда Премиум Международный HD
+https://strm.yandex.ru/kal/eda_premium_int_belarus/eda_premium_int_belarus0.m3u8
+#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://epgx.site/p/zagorodnaya-zhizn.png" group-title="Познавательные",Загородная Жизнь (EDTV 576p)
+https://strm.yandex.ru/kal/zagorodnaia_zhizn_belarus/zagorodnaia_zhizn_belarus0.m3u8
+#EXTINF:-1 tvg-id="kuxnia-tv" tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Познавательные",Кухня ТВ (EDTV 576p)
+http://188.113.190.15/314/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Познавательные" _"e-tv", E TV
+http://92.242.110.52:9835/udp/238.1.7.5:1234
+#EXTINF:-1 group-title="Познавательные" _"e-tv", E TV
+http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="tlc" group-title="Познавательные",TLC 
+https://bkm.beetv.kz/btv/live/hls/000001498.m3u8  
+#EXTINF:-1 tvg-logo="https://img.redbull.com/images/w_250/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv" group-title="Познавательные", Red Bull TV HD
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
