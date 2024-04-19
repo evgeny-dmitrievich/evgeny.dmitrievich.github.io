@@ -21,25 +21,25 @@ https://stream.4fun.tv:8888/hls/4f.m3u8
 https://cdn-notpub-london.lolokoko.tv/4fundance.stream/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/4ever-music.png" tvg-name="Best clips" group-title="Музыкальные",Best clips [1280x720]
 https://fs2.persik.by/Best_clips/index.m3u8
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://188.113.190.15/137/mono.m3u8
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://185.134.36.81:4022/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://178.163.37.154:4022/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://185.134.36.25:4022/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://178.163.58.232:4022/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://178.163.41.245:81/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://185.134.38.189:4022/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://185.134.36.46:4022/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 http://178.163.4.30:4022/udp/234.0.0.179:2000
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
 #EXTVLCOPT:http-user-agent=Player (Linux; Android 14)
 http://178.163.2.88:4022/udp/234.0.0.179:2000
 #EXTINF:-1 group-title="Музыкальные", MIXM TV [1920x1080]
@@ -61,7 +61,7 @@ http://de1se01.v2beat.live/playlist.m3u8
 https://abr.de1se01.v2beat.live/live/live6/chunks.m3u8
 #EXTINF:-1 _"V2BEATTV.uk" tvg-logo="https://i.imgur.com/PXGqyLn.png" ...="V2BEAT TV" group-title="Музыкальные",V2BEAT TV [1280x720]
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://smotret.tv/images/kronehit-tv.webp" group-title="Музыкальные", Kronehit
+#EXTINF:-1  group-title="Музыкальные", KroneHit TV HD
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/nrj-hits-tv.webp" group-title="Музыкальные", NRJ Hits
 https://tv.ngroup.be/live/ngrp:nrj_all/chunklist_w1831190303_b3022848.m3u8
@@ -74,11 +74,11 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d93b635b43dd1a399b
 http://178.124.179.122:8088/BelMuzTV/index.m3u8
 #EXTINF:-1 _"BelMuzTV.by" tvg-logo="https://i.imgur.com/31MPLIL.png" ...="БелМузТВ" group-title="Музыкальные",БелМуз [720x576]
 http://178.124.179.122:8088/BelMuzTV/tracks-v1a1/mono.m3u8
-#EXTINF:-1 _"CaliforniaMusicChannel.us" tvg-logo="https://i.imgur.com/L38mC6H.png" ...="California Music Channel [us]" group-title="Музыкальные",California Music Channel
+#EXTINF:-1 _"CaliforniaMusicChannel.us" tvg-logo="https://i.imgur.com/L38mC6H.png" group-title="Музыкальные",California Music Channel
 https://cmc-ono.amagi.tv/playlist.m3u8
-#EXTINF:-1 _"DSTV.bg" tvg-logo="https://smotret.tv/images/dancestar-tv.webp" ...="DSTV [bg]" group-title="Музыкальные",DSTV (Болгария)
+#EXTINF:-1 _"DSTV.bg" tvg-logo="https://smotret.tv/images/dancestar-tv.webp" group-title="Музыкальные",DSTV (Болгария)
 http://46.249.95.140:8081/hls/data.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OoJSmoj.png" ...="The Voice [bg]" group-title="Музыкальные",The Voice (Болгария)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OoJSmoj.png" group-title="Музыкальные",The Voice (Болгария)
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
 #EXTINF:-1 group-title="Музыкальные",Magic TV (Болгария)
 https://bss1.neterra.tv/magictv/magictv.m3u8
@@ -120,10 +120,6 @@ https://strm.yandex.ru/kal/eda_premium_int_belarus/eda_premium_int_belarus0.m3u8
 https://strm.yandex.ru/kal/zagorodnaia_zhizn_belarus/zagorodnaia_zhizn_belarus0.m3u8
 #EXTINF:-1 tvg-id="kuxnia-tv" tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Познавательные",Кухня ТВ
 http://188.113.190.15/314/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="Познавательные" _"e-tv", E TV
-http://92.242.110.52:9835/udp/238.1.7.5:1234
-#EXTINF:-1 group-title="Познавательные" _"e-tv", E TV
-http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="tlc" group-title="Познавательные",TLC 
 https://bkm.beetv.kz/btv/live/hls/000001498.m3u8  
 #EXTINF:-1 tvg-logo="https://img.redbull.com/images/w_250/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv" group-title="Познавательные", Red Bull TV HD
