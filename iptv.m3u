@@ -65,22 +65,22 @@ https://abr.de1se01.v2beat.live/playlist.m3u8
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/nrj-hits-tv.webp" group-title="Музыкальные", NRJ Hits
 https://tv.ngroup.be/live/ngrp:nrj_all/chunklist_w1831190303_b3022848.m3u8
-#EXTINF:-1 _"VevoPop.us" tvg-logo="https://i.imgur.com/dZHktKR.png" ...="VEVO Pop (USA)" group-title="Музыкальные",VEVO Pop (USA) [1280x720]
+#EXTINF:-1 _"VevoPop.us" tvg-logo="https://i.imgur.com/dZHktKR.png" ...="VEVO Pop (USA)" group-title="Музыкальные",VEVO Pop
 https://d28edobz3hqdpi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-shs19slqofvwj-ssai-prd/0863b815-0b1e-4292-b323-3d0dd53b75cb/3.m3u8
-#EXTINF:-1 _"VevoPop.us" tvg-logo="https://i.imgur.com/dZHktKR.png" ...="VEVO Pop (USA)" group-title="Музыкальные",VEVO Pop (USA) [1280x720]
+#EXTINF:-1 _"VevoPop.us" tvg-logo="https://i.imgur.com/dZHktKR.png" ...="VEVO Pop (USA)" group-title="Музыкальные",VEVO Pop
 #EXTVLCOPT:http-user-agent=VLC/3.0.20 LibVLC/3.0.20
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d93b635b43dd1a399b39eee/master.m3u8?sid=0885&deviceId=5d93b635b43dd1a399b39eee&deviceVersion=DNT&appVersion=DNT&deviceType=web&deviceMake=web&advertisingId=&deviceLat=&deviceLon=&deviceDNT=1&deviceModel=web&userId=&app_name=&appName=web&serverSideAds=false&buildVersion=&architecture=&appStoreUrl=&includeExtendedEvents=false&terminate=false&marketingRegion=US
 #EXTINF:-1 _"BelMuzTV.by" tvg-logo="https://i.imgur.com/31MPLIL.png" ...="БелМузТВ" group-title="Музыкальные",БелМуз [720x576]
 http://178.124.179.122:8088/BelMuzTV/index.m3u8
 #EXTINF:-1 _"BelMuzTV.by" tvg-logo="https://i.imgur.com/31MPLIL.png" ...="БелМузТВ" group-title="Музыкальные",БелМуз [720x576]
 http://178.124.179.122:8088/BelMuzTV/tracks-v1a1/mono.m3u8
-#EXTINF:-1 _"CaliforniaMusicChannel.us" tvg-logo="https://i.imgur.com/L38mC6H.png" ...="California Music Channel [us]" group-title="Музыкальные",California Music Channel [us] [1920x1080]
+#EXTINF:-1 _"CaliforniaMusicChannel.us" tvg-logo="https://i.imgur.com/L38mC6H.png" ...="California Music Channel [us]" group-title="Музыкальные",California Music Channel
 https://cmc-ono.amagi.tv/playlist.m3u8
-#EXTINF:-1 _"DSTV.bg" tvg-logo="https://smotret.tv/images/dancestar-tv.webp" ...="DSTV [bg]" group-title="Музыкальные",DSTV [bg] [1920x1080]
+#EXTINF:-1 _"DSTV.bg" tvg-logo="https://smotret.tv/images/dancestar-tv.webp" ...="DSTV [bg]" group-title="Музыкальные",DSTV (Болгария)
 http://46.249.95.140:8081/hls/data.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OoJSmoj.png" ...="The Voice [bg]" group-title="Музыкальные",The Voice [bg] [1280x720]
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OoJSmoj.png" ...="The Voice [bg]" group-title="Музыкальные",The Voice (Болгария)
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
-#EXTINF:-1 group-title="Музыкальные",Magic TV (720p)
+#EXTINF:-1 group-title="Музыкальные",Magic TV (Болгария)
 https://bss1.neterra.tv/magictv/magictv.m3u8
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/company-tv.webp" group-title="Музыкальные", COMPANY TV
 https://company.fluid.stream/CompanyTV/smil:Company_ALL.smil/playlist_slita.m3u8
@@ -96,7 +96,7 @@ http://hls.goodgame.ru:8080/hls/187241.m3u8
 http://195.9.195.3:8080/hls/187241.m3u8
 
 
-#EXTINF:-1 tvg-name="Учим English" tvg-logo="https://avatars.mds.yandex.net/i?id=8a3c316a4cea16e64804a9eb423a4097c51871c4-10385245-images-thumbs&n=13" group-title="Познавательные",Учим English[1280x720]
+#EXTINF:-1 tvg-name="Учим English" tvg-logo="https://avatars.mds.yandex.net/i?id=8a3c316a4cea16e64804a9eb423a4097c51871c4-10385245-images-thumbs&n=13" group-title="Познавательные",Учим English [1280x720]
 https://fs2.persik.by/Uchim_English/index.m3u8
 #EXTINF:-1 tvg-name="Сказки English" tvg-logo="https://avatars.mds.yandex.net/i?id=0c76ab2917ecedbf230fc5ff6f03b30f05e77a98-9705232-images-thumbs&n=13" group-title="Познавательные",Сказки English [1280x720]
 https://fs2.persik.by/Skazki_eng/index.m3u8
@@ -116,9 +116,9 @@ https://fs2.persik.by/Master_class/index.m3u8
 https://fs2.persik.by/Vypechka/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Еда Премиум Международный HD
 https://strm.yandex.ru/kal/eda_premium_int_belarus/eda_premium_int_belarus0.m3u8
-#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://epgx.site/p/zagorodnaya-zhizn.png" group-title="Познавательные",Загородная Жизнь (EDTV 576p)
+#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://epgx.site/p/zagorodnaya-zhizn.png" group-title="Познавательные",Загородная Жизнь
 https://strm.yandex.ru/kal/zagorodnaia_zhizn_belarus/zagorodnaia_zhizn_belarus0.m3u8
-#EXTINF:-1 tvg-id="kuxnia-tv" tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Познавательные",Кухня ТВ (EDTV 576p)
+#EXTINF:-1 tvg-id="kuxnia-tv" tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Познавательные",Кухня ТВ
 http://188.113.190.15/314/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Познавательные" _"e-tv", E TV
 http://92.242.110.52:9835/udp/238.1.7.5:1234
